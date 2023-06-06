@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: <a href='https://cc.nankai.edu.cn/'>Nankai University</a>. Contacts. Moto. Etc.
+subtitle: <a href='https://cc.nankai.edu.cn/'>Nankai University</a>. +086-18565898403. gloryzzc6@sina.com.
 
 profile:
   align: right
