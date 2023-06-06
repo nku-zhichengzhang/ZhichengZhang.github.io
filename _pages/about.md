@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://cc.nankai.edu.cn/'>Nankai University</a>.   +086-18565898403.   gloryzzc6@sina.com.
+subtitle: Ph.D. student.  <a href='https://cv.nankai.edu.cn/'>CV Lab</a>.   <a href='https://cc.nankai.edu.cn/'>Nankai University</a>.   gloryzzc6@sina.com.
 
 profile:
   align: right
