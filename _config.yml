@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: <font size=5 ><b>Zhicheng</b></font> Zhang # the website title (if blank, full name will be used instead)
-first_name: Zhicheng
+title: Zhicheng Zhang # the website title (if blank, full name will be used instead)
+first_name: <font size=5 ><b>Zhicheng</b></font>
 middle_name:
 last_name: Zhang
 email: gloryzzc6@sina.com
