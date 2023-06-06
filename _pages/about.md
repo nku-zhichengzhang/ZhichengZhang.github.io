@@ -9,8 +9,7 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Computer Institute South building 428</p>
-    <p>38 Tongyan Road, Jinnan District</p>
+    <p>38 Tongyan Road, Jinnan</p>
     <p>Tianjin, China</p>
 
 news: true  # includes a list of news items
