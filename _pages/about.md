@@ -1,17 +1,17 @@
 ---
 layout: about
-title: about
+title: About me
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>428</p>
+    <p>38 Tongyan Road, Jinnan District</p>
+    <p>Tianjin, China</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +19,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a second year PhD student from [School of CS](https://cc.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). I am very fortunate to be advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab from Nankai University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. You can find my CV here: [Zhicheng Zhang's Curriculum Vitae](../assets/NKU_zzc_CV.pdf).
+
+
+
+For our works, we provide some interesting demos for fun. Some videos are presented and you can also upload yours. Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+[Email1](mailto:gloryzzc6@sina.com) / [Email2](mailto:1120210216@mail.nankai.edu.cn) / [Github](https://github.com/nku-zhichengzhang) / [Wechat](../assets/img/Wechat.png)
+
+<center class="half">
+    <img src="../assets/img/Github_Wechat.jpg" width="200"/>
+</center>
