@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nku-zhichengzhang
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - nku-zhichengzhang/TSL300
+  - nku-zhichengzhang/WECL
+  - nku-zhichengzhang/PlaneSeg
+
