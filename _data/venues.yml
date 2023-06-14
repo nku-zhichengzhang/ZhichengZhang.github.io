@@ -1,6 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"CVPR":
+  url: https://cvpr2023.thecvf.com/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACM MM":
+  url: https://2022.acmmm.org/
+
+"TNNLS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385
