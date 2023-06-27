@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Video Emotion Recognition
-description: a demo that recognize the conveyed emotion of a video
+description: a demo that recognize the conveyed emotion of the video
 img: assets/img/ver_fm.jpg
 importance: 1
 category: Affective Computing
@@ -10,7 +10,7 @@ category: Affective Computing
 
 
 
-# Video Emotion Recognition
+## Emotion
 
 Emotion refers to a person's disposition to respond to the media carrier. To this end, Video Emotion Recognition uncover the underlying attitude or opinions of viewers towards the given video.
 
@@ -50,7 +50,7 @@ The subject also covers human, animal, landscape, and others.
 </div>
 
 
-# Results
+# Recognition Results
 
 <div class="row mt-3">
     <div class="col-sm mt-6 mt-md-0">
@@ -67,14 +67,14 @@ We also provide a online demo that can upload any video you like.
 Due to the limitation of computation power of our server, if you want to process images in batch, please refer to our provided script on [Github:WECL](https://github.com/nku-zhichengzhang/WECL) or [Github:TSL](https://github.com/nku-zhichengzhang/TSL300).
 
 {% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+```
+Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network
+Zhicheng Zhang, Lijuan Wang, and Jufeng Yang
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023.
+```
+```
+Temporal Sentiment Localization: Listen and Look in Untrimmed Videos
+Zhicheng Zhang and Jufeng Yang
+Proceedings of the 30th ACM International Conference on Multimedia (ACM MM) 2022.
 ```
 {% endraw %}
