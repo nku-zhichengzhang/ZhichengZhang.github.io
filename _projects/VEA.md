@@ -4,9 +4,10 @@ title: Video Emotion Recognition
 description: a demo that recognize the conveyed emotion of a video
 img: assets/img/ver_fm.jpg
 importance: 1
-category: work
+category: Affective Computing
 ---
-@import "echarts.min.js"
+
+<!-- @import "echarts.min.js"
 
 ```javascript {cmd=true element="<div id='showechart' style='width:400px;height:300px;'></div>"}
 var myChart = echarts.init(document.getElementById('showechart'));
@@ -30,7 +31,7 @@ series: [{
 }]
 };
 muChart.setOption(option);
-```
+``` -->
 
 
 # Video Emotion Recognition
@@ -87,6 +88,7 @@ The subject also covers human, animal, landscape, and others.
 # Online Demo
 
 We also provide a online demo that can upload any video you like.
+Due to the limitation of computation power of our server, if you want to process images in batch, please refer to our provided script on [Github:WECL](https://github.com/nku-zhichengzhang/WECL) or [Github:TSL](https://github.com/nku-zhichengzhang/TSL300).
 
 {% raw %}
 ```html
