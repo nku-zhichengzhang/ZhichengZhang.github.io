@@ -56,7 +56,7 @@ The subject also covers human, animal, landscape, and others.
     <div class="col-sm mt-6 mt-md-0">
         {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
-    
+    <div class="col-sm mt-6 mt-md-0">
     ```chart
     ,Budget,Income,Expenses,Debt
     June,5000,8000,4000,6000
@@ -72,6 +72,7 @@ The subject also covers human, animal, landscape, and others.
     y.title: Month
     y.suffix: $
     ```
+    </div>
 </div>
 
 # Online Demo
