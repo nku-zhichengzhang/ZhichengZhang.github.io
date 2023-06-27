@@ -9,7 +9,6 @@ category: Affective Computing
 
 
 
-
 ## Emotion
 
 Emotion refers to a person's disposition to respond to the media carrier. To this end, Video Emotion Recognition uncover the underlying attitude or opinions of viewers towards the given video.
@@ -57,21 +56,15 @@ The subject also covers human, animal, landscape, and others.
         {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
     <div class="col-sm mt-6 mt-md-0">
-    ```chart
-    ,Budget,Income,Expenses,Debt
-    June,5000,8000,4000,6000
-    July,3000,1000,4000,3000
-    Aug,5000,7000,6000,3000
-    Sep,7000,2000,3000,1000
-    Oct,6000,5000,4000,2000
-    Nov,4000,3000,5000,
-    
-    type: column
-    title: Monthly Revenue
-    x.title: Amount
-    y.title: Month
-    y.suffix: $
-    ```
+        <script src="mermaid.full.min.js">
+            <div class="mermaid">
+                graph TD;
+                A-->B;
+                A-->C;
+                B-->D;
+                C-->D;
+            </div>
+        </script>
     </div>
 </div>
 
