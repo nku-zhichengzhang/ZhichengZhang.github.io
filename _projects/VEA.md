@@ -56,7 +56,6 @@ The subject also covers human, animal, landscape, and others.
         {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
     <div class="col-sm mt-6 mt-md-0">
-        <script src="mermaid.full.min.js">
             <div class="mermaid">
                 graph TD;
                 A-->B;
@@ -64,7 +63,6 @@ The subject also covers human, animal, landscape, and others.
                 B-->D;
                 C-->D;
             </div>
-        </script>
     </div>
 </div>
 
