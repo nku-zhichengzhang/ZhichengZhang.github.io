@@ -5,6 +5,7 @@ description: a demo that recognize the conveyed emotion of the video
 img: assets/img/ver_fm.jpg
 importance: 1
 category: Affective Computing
+mermaid: true
 ---
 
 
