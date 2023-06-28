@@ -217,7 +217,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-spaceship
+  - jekyll-mermaid
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
