@@ -50,6 +50,7 @@ The subject also covers humans, animals, landscapes, and others.
 
 
 # Recognition Results
+<script src="mermaid.full.min.js"></script>
 
 <div class="row mt-3">
     <div class="col-sm mt-6 mt-md-0">
