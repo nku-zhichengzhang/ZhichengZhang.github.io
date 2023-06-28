@@ -50,7 +50,7 @@ The subject also covers humans, animals, landscapes, and others.
 </div>
 
 
-# Recognition Results
+# Recognition Example
 <script src="mermaid.full.min.js"></script>
 
 <div class="row">
@@ -60,10 +60,10 @@ The subject also covers humans, animals, landscapes, and others.
     <!-- <div class="col-sm mt-6 mt-md-0"> -->
     <div class="col-sm">
         <div id="pos_val_bar" style="background:#DDDDDD; width:11.7%;">
-            <p id="pos_val" class="pl-5" style="font-size:20px;white-space:nowrap;">&#128512; Positive: 11.7</p>
+            <p id="pos_val" class="pl-5" style="font-size:23px;white-space:nowrap;">&#128512; Positive: 11.7</p>
         </div>
         <div id="neg_val_bar" style="background:#DDDDDD; width:88.3%;">
-                <p id="neg_val" class="pl-5" style="font-size:20px;white-space:nowrap;">&#128533; Negative: 88.3</p>
+                <p id="neg_val" class="pl-5" style="font-size:23px;white-space:nowrap;">&#128533; Negative: 88.3</p>
         </div>
         <hr/>
         <div class="mermaid">
