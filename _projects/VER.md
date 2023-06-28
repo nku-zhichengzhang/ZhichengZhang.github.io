@@ -11,7 +11,7 @@ mermaid: true
 
 
 ## Emotion
-
+---
 Emotion refers to a person's disposition to respond to the media carrier. To this end, Video Emotion Recognition uncover the underlying attitude or opinions of viewers towards the given video.
 
 
@@ -50,7 +50,8 @@ The subject also covers humans, animals, landscapes, and others.
 </div>
 
 
-# Recognition Example
+## Recognition Example
+---
 <script src="mermaid.full.min.js"></script>
 
 <div class="row">
@@ -93,20 +94,14 @@ The subject also covers humans, animals, landscapes, and others.
 </div>
 
 
-# Online Demo
-
+## Online Demo
+---
 We also provide an online demo that can upload any video you like.
 Due to the limitation of computation power of our server, if you want to process images in batch, please refer to our provided script on [Github:WECL](https://github.com/nku-zhichengzhang/WECL) or [Github:TSL](https://github.com/nku-zhichengzhang/TSL300).
 
-{% raw %}
-```
-Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network
-Zhicheng Zhang, Lijuan Wang, and Jufeng Yang
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023.
-```
-```
-Temporal Sentiment Localization: Listen and Look in Untrimmed Videos
-Zhicheng Zhang and Jufeng Yang
-Proceedings of the 30th ACM International Conference on Multimedia (ACM MM) 2022.
-```
-{% endraw %}
+
+## Related Papers
+---
+- Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network. Zhicheng Zhang, Lijuan Wang, and Jufeng Yang, IEEE CVPR, 2023.
+
+- Temporal Sentiment Localization: Listen and Look in Untrimmed Videos. Zhicheng Zhang and Jufeng Yang, ACM Multimedia, 2022.
