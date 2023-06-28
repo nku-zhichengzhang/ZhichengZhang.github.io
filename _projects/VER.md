@@ -65,15 +65,18 @@ The subject also covers humans, animals, landscapes, and others.
         <div id="neg_val_bar" style="background:#DDDDDD; width:3.2%;">
                 <p id="neg_val" class="pl-5" style="font-size:28px;white-space:nowrap;">&#128533; Negative: 3.2</p>
         </div>
-    <hr/>
-    <div class="mermaid">
-    graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+        <hr/>
+        <div class="mermaid">
+        graph TD;
+        A-->B;
+        A-->C;
+        B-->D;
+        C-->D;
+        </div>
     </div>
+    
 </div>
+
 
 # Online Demo
 
