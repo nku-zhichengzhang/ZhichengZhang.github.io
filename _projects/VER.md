@@ -55,15 +55,15 @@ The subject also covers humans, animals, landscapes, and others.
     <div class="col-sm mt-6 mt-md-0">
         {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
-    <div class="col-sm mt-6 mt-md-0">
-            <div class="mermaid">
-                graph TD;
-                A-->B;
-                A-->C;
-                B-->D;
-                C-->D;
-            </div>
-    </div>
+    <!-- <div class="col-sm mt-6 mt-md-0"> -->
+        {% mermaid %}
+        sequenceDiagram
+            participant John
+            participant Alice
+            Alice->>John: Hello John, how are you?
+            John-->>Alice: Great!
+        {% endmermaid %}
+    <!-- </div> -->
 </div>
 
 # Online Demo
