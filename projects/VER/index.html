@@ -252,6 +252,11 @@ The subject also covers humans, animals, landscapes, and others.
     </div>
     <!-- <div class="col-sm mt-6 mt-md-0"> -->
     <div class="mermaid">
+    graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
     </div>
 </div>
 
@@ -273,7 +278,38 @@ Proceedings of the 30th ACM International Conference on Multimedia (ACM MM) 2022
           </article>
 
         </div>
+        
+        
 
+   
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+    
+
+
+ <pre><code class="language-mermaid">graph LR
+A--&gt;B
+</code></pre>
+
+<div class="mermaid">graph LR
+A--&gt;B
+</div>
+	
+
+<script>
+var config = {
+    startOnLoad:true,
+    theme: 'forest',
+    flowchart:{
+            useMaxWidth:false,
+            htmlLabels:true
+        }
+};
+mermaid.initialize(config);
+window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+
+
+        
       
     </div>
 
