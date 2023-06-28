@@ -53,12 +53,12 @@ The subject also covers humans, animals, landscapes, and others.
 # Recognition Results
 <script src="mermaid.full.min.js"></script>
 
-<div class="row mt-3">
-    <div class="col-sm mt-9 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-9">
         {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
     <!-- <div class="col-sm mt-6 mt-md-0"> -->
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3">
         <div id="pos_val_bar" style="background:#DDDDDD; width:11.7%;">
             <p id="pos_val" class="pl-5" style="font-size:28px;white-space:nowrap;">&#128512; Positive: 11.7</p>
         </div>
