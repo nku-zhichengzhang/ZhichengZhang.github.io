@@ -67,11 +67,26 @@ The subject also covers humans, animals, landscapes, and others.
         </div>
         <hr/>
         <div class="mermaid">
-        graph TD;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
+        gantt
+        title Emotion Confidence
+        dateFormat X
+        axisFormat %s
+        section Amusement
+        5   : 0, 5
+        section Contentment
+        0   : 0, 0
+        section Awe
+        2   : 0, 2
+        section Excitement
+        2   : 0, 2
+        section Fear
+        25   : 0, 25
+        section Sadness
+        22   : 0, 22
+        section Disgust
+        6   : 0, 6
+        section Anger
+        38   : 0, 38
         </div>
     </div>
     
