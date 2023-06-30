@@ -29,7 +29,7 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Anticipation</span>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Fear</span>
         </center>
         {% include video.html path="assets/video/maqima.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
