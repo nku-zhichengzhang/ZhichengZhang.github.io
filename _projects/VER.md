@@ -14,22 +14,17 @@ mermaid: true
 ---
 Emotion refers to a person's disposition to respond to the media carrier. To this end, Video Emotion Recognition uncover the underlying attitude or opinions of viewers towards the given video.
 
-<!-- 载入bootstrap的css -->
-<link href="./lib/bootstrap.min.css" rel="stylesheet"/>
-<!-- 若使用bootstrap的js插件，则必须先导入jquery(因为bootstrap是依赖于jquery的) -->
-<script src="./lib/jquery.js"></script>
-<!-- 载入bootstrap的js：包括所有的bootstrap的js插件或者可以根据需要使用的js插件的调用 -->
-<script src="./lib/bootstrap.min.js"></script>
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <div class="caption">Sadness</div>
-            <span class="label label-default">Negative</span>
         </center>
         {% include video.html path="assets/video/sadness.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <p style="font-family: Calibri, Helvetica, sans-serif;">
+        Vlog
+        </p>
         {% include video.html path="assets/video/vlog.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
