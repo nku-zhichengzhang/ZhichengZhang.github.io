@@ -22,15 +22,21 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
         {% include video.html path="assets/video/sadness.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <p style="font-family: Calibri, Helvetica, sans-serif;">
-        Vlog
-        </p>
+        <center>
+            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Happyness</span>
+        </center>
         {% include video.html path="assets/video/vlog.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+        </center>
         {% include video.html path="assets/video/maqima.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+        </center>
         {% include video.html path="assets/video/mv.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
 </div>
@@ -41,12 +47,21 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
 
 <div class="row mt-3">
     <div class="col-sm mt-4 mt-md-0">
+        <center>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+        </center>
         {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-4 mt-md-0">
+        <center>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+        </center>
         {% include video.html path="assets/video/animal.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-4 mt-md-0">
+        <center>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+        </center>
         {% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
