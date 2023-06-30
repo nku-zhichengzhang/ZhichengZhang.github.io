@@ -17,7 +17,7 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <div class="caption">Sadness</div>
+            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
         </center>
         {% include video.html path="assets/video/sadness.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
