@@ -23,19 +23,19 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Happyness</span>
+            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Trust</span>
         </center>
         {% include video.html path="assets/video/vlog.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Anticipation</span>
         </center>
         {% include video.html path="assets/video/maqima.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Anticipation</span>
         </center>
         {% include video.html path="assets/video/mv.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
@@ -54,13 +54,13 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
     </div>
     <div class="col-sm mt-4 mt-md-0">
         <center>
-            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Surprise</span>
         </center>
         {% include video.html path="assets/video/animal.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-4 mt-md-0">
         <center>
-            <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
+            <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Joy</span>
         </center>
         {% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
@@ -123,5 +123,5 @@ Due to the limitation of computation power of our server, if you want to process
 ## Related Papers
 ---
 - Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network. Zhicheng Zhang, Lijuan Wang, and Jufeng Yang, IEEE CVPR, 2023.
-
 - Temporal Sentiment Localization: Listen and Look in Untrimmed Videos. Zhicheng Zhang and Jufeng Yang, ACM Multimedia, 2022.
+- Emotion, Theory, Research, and Experience: Theories of emotion. Kellerman Henry and Robert Plutchik, Academic Press, 1980.
