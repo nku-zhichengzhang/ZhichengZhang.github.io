@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Homepage of Planar Object Perception"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="/assets/img/mpot/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="/assets/img/mpot/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MPOTS</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/mpot/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/bulma.min.css">
+  <link rel="stylesheet" href="/assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="/assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="/assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/css/mpot.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="/assets/js/fontawesome.all.min.js"></script>
+  <script src="/assets/js/bulma-carousel.min.js"></script>
+  <script src="/assets/js/bulma-slider.min.js"></script>
+  <script src="/assets/js/mpot.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Multiple Planar Object Tracking and Segmentation<br>(ICCV 2023 & TNNLS 2023)</h1>
+            <div class="is-size-5 publication-authors">
+
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://zzcheng.top/" target="_blank">Zhicheng Zhang</a>
+              </span>
+              <span class="author-block">
+                and
+              </span>
+              <span class="author-block">
+                <a href="https://cv.nankai.edu.cn/" target="_blank">Jufeng Yang</a>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">College of Computer Science<br>Nankai University, China</span>
+            </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://zzcheng.top/MPOTS" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/nku-zhichengzhang/MPOT" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://zzcheng.top/MPOTS" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Dataset [TBD]</span>
+                  </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://zzcheng.top/MPOTS" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Video [TBD]</span>
+                  </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://zzcheng.top/MPOTS" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Online Demo [TBD]</span>
+                  </a>
+                  </span>
+
+                  <!-- ArXiv abstract Link -->
+                  <!-- <span class="link-block">
+                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                    </a>
+                  </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls loop height="100%">
+        <!-- Your video here -->
+        <source src="/assets/videos/iccv23_6884_demo.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <b>Key Motivation:</b> Tracking both location and pose of multiple planar objects is of great significance to numerous real-world applications, including industrial, education, geometric, art, and our daily life. With the help of MPOT, we can track targets when multiple planar objects exist, e.g., different surfaces of an object or planes from various objects.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Tracking both location and pose of multiple planar objects (MPOT) is of great significance to numerous real-world applications. The greater degree-of-freedom of planar objects compared with common objects makes MPOT far more challenging than well-studied object tracking, especially when occlusion occurs. To address this challenging task, we are inspired by amodal perception that humans jointly track visible and invisible parts of the target, and propose a tracking framework that unifies appearance perception and occlusion reasoning. Specifically, we present a dual branch network to track the visible part of planar objects, including vertexes and mask. Then, we develop an occlusion area localization strategy to infer the invisible part, i.e., the occluded region, followed by a two-stream attention network finally refining the prediction. To alleviate the lack of data in this field, we build the first large-scale benchmark dataset, namely MPOT-3K. It consists of 3,717 planar objects from 356 videos, and contains 148,896 frames together with 687,417 annotations. The collected planar objects have 9 motion patterns and the videos are shot in 6 types of indoor and outdoor scenes. Extensive experiments demonstrate the superiority of our proposed method on the newly developed MPOT-3K as well as other two popular single planar object tracking datasets.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Paper challenges -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">MPOT task</h2>
+        <div class="content has-text-justified">
+          <h4 class="title is-4 ">Definition</h4>
+          <img src="/assets/img/mpot/fig8_reform_03073.png">
+          <p>
+            <b>Fig.1: Illustration of the reformulated form of MPOT.</b> MPOT predict heatmaps of four ordered vertexes and the mask for each planar object. The stacked masks are built in a layered structure and are responsible for the  occluders and occludees. The ordered vertexes are crucial for tracking the pose of targets.
+          </p>
+          <br>
+          <p>
+            Assume multiple planar objects exists in an RGB video where they are not from the training set, nor have detection results. Given the user-selected ones in the initial frame, the objective is to continuously track their position change relative to the start of tracking, i.e., homography matrix, with which the pose change of targets can be obtained.
+
+            As shown in Fig. 1, we reformulate the tracking task as predicting the masks of the quadrangle and the heatmap of four ordered vertexes. The layered masks represent the location of multiple planar objects and the vertexes are used to track the pose of planar objects.
+          </p>
+        </div>
+
+        <div class="content has-text-justified">
+          <h4 class="title is-4 center">Task Correlation</h4>
+          <img src="/assets/img/mpot/Tasks.jpg">
+          <p>
+            <b>Tab.1: Comparison with other video-related tasks.</b> We compare MPOT with five RGB tracking tasks and four tasks with auxiliary modality information.
+          </p>
+          <br>
+          <p>
+            MPOT is closely related to well-known computer vision tasks in RGB tracking. Both tasks involve tracking the target across subsequent frames of a video using the ground truth provided in the initial frame.
+          </p>
+        </div>
+
+        <div class="content has-text-justified">
+          <h4 class="title is-4 center">Challenges</h4>
+          <img src="/assets/img/mpot/fig1o11.png" >
+          <p>
+            <b>Fig.1: Comparison with other vision tasks.</b> Given an image (a), we present the ground truth for different tasks in (b). The corresponding Degree-of-Freedom (DoF) is reported at the bottom and the details are listed on the right side of each task. In (c), we show the tracking results for box-based tasks (e.g., VOT, RVOT), mask-based tasks (e.g., VOS), and POT, which can find the occluded regions (marked by the red line area) and provide pixel-to-pixel matching correspondence (colored points across frames).
+          </p>
+          <br>
+          <h4 class="title is-5">Challenge 1: High Degree of Freedom</h4>
+          <p>
+            Tracking planar objects is of greater Degree-of-Freedom (DoF). As shown in Fig.1 (b) MPOT tracks both the pose and location of the target, which is described by an arbitrary quadrangle (i.e., four independent vertexes (x<sub>1</sub>,y<sub>1</sub>,x<sub>2</sub>,y<sub>2</sub>,x<sub>3</sub>,y<sub>3</sub>,x<sub>4</sub>,y<sub>4</sub>)), whose DoF is 8. In contrast, it only needs to predict the position and size of an object (x,y,w,h) in video object tracking (VOT), and rotated VOT (RVOT) additionally requires the rotation angle. Even compared with video object segmentation (VOS), an alternative that introduces mask at the pixel level, MPOT is a more challenging task. Because MPOT provides the matched correspondence for each pixel within the object region across frames (e.g., colored points in Fig.1 (a)\&(c)), which makes it possible for applications that require positional information like texture mapping. And VOS that tracks the target area instead of per-pixel location can hardly achieve it.
+          </p>
+          <h4 class="title is-5">Challenge 2: Occlusion</h4>
+          <p>
+            Except for the one in POT that manually occludes the camera, MPOT introduces the occlusion raised by the layered position of multiple targets relative to the camera (see Fig.1 (c)). Besides, the occlusion is more complex than the ones in multiple object tracking (MOT). When occlusion occurs, MPOT estimates the pixel correspondence controlled by homography matrix, which tends to be sensitive and have a high condition number that can reach up to 5e<sup>7</sup>. That means, even with the tiny movement of the invisible part, it is of huge difficulty for tracking.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">MPOT-3K: the first large-scale dataset</h2>
+        <div class="content has-text-justified">
+          <h4 class="title is-4 center">Data Source</h4>
+          <section class="hero is-small is-light">
+            <div class="hero-body">
+              <div class="container">
+                
+                <div id="results-carousel" class="carousel results-carousel">
+                 <div class="item">
+                  <img src="/assets/img/mpot/Gallery.jpg" alt="First slide"/>
+                  <h2 class="subtitle has-text-centered">
+                    Gallery.
+                  </h2>
+                </div>
+                <div class="item">
+                  <img src="/assets/img/mpot/Library.jpg" alt="First slide"/>
+                  <h2 class="subtitle has-text-centered">
+                    Library.
+                  </h2>
+                </div>
+                <div class="item">
+                  <img src="/assets/img/mpot/House.jpg" alt="First slide"/>
+                  <h2 class="subtitle has-text-centered">
+                    House.
+                 </h2>
+               </div>
+               <div class="item">
+                <img src="/assets/img/mpot/Street.jpg" alt="First slide"/>
+                <h2 class="subtitle has-text-centered">
+                  Street.
+                </h2>
+              </div>
+            </div>
+          </div>
+          </div>
+          </section>
+          <p>
+            We yield the first large-scale dataset MPOT-3K, which obtain 356 videos with 3,717 planar objects from 42 scenes. The number of planar objects per video averages 10.44 and can reach 74 at most. MPOT-3K is divided into training, validation, and test set in a proportion of 80:5:15. Actually, the split is performed at the scene level to ensure there's no overlap among splits. Hence the dataset avoids data leakage since both the target and scene of the test set are expelled during training.
+          </p>
+        </div>
+        
+        
+        
+        <div class="content has-text-justified">
+          <h4 class="title is-4 center">Data Statistics</h4>
+          <img src="/assets/img/mpot/relmov_0307.png" >
+          <p>
+            <b>Fig.2: Statistics of occlusion in MPOT-3K.</b> (a) shows the  frequency of occlusion in six types of scenes, in which the number on the left indicates the number of planar objects being occluded and the one in shadow represents the corresponding proportion. (b) illustrates the number of occlusions per video as well as the temporal length per occlusion.
+          </p>
+          <br>
+          <p>
+            MPOT-3K contains over 9.8 times more annotations and 13.2 times more targets in all video frames than the largest POT dataset POT280. The number of targets is almost 3 times of the popular MOT16 dataset. To the best of our knowledge, MPOT-3K is the first large-scale dataset for the challenging task of MPOT. Another strength of MPOT-3K lies in its diversity, which covers 9 motion patterns and 6 types of scenes. Besides, MPOT-3K introduces more complex occlusions. As shown in Fig.2 (a), we observe that occlusion occurs in all the scenes, where 39.9% of planar objects are occluded on average. Fig.2 (b) further illustrates that there are 3.6 occlusions happening in a video on average and each occlusion lasts 9.56 seconds.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image carousel -->
+
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">PRTrack: a tracking framework that unifies appearance perception and occlusion reasoning</h2>
+        <div class="content has-text-justified">
+          <img src="/assets/img/mpot/pipeline.png" >
+          <p>
+            <b>Fig.4: Pipeline of PRTrack.</b> Our tracking framework is divided into three stages. First, in appearance perception, we track the visible part of multiple planar objects via a dual-branch network, as coarse output. For the next stage of occlusion reasoning, the occlusion area is localized and then fed into a two-stream self-attention network for refining the predicted target. Finally, the memory pool module restores the high-confident tracked targets.
+          </p>
+          <p>
+            PRTrack consists of three main components (See Fig.3): memory pool module, appearance perception network, and occlusion reasoning network. The memory pool module restores the previous predictions and expels the low confident targets. Guided by previously tracked targets, the appearance perception network predicts mask together with the vertexes for each planar object. The occlusion reasoning network further takes all the tracked target and corresponding occlusion area, which is indicated by the difference between motion-guided results among multiple targets and the predicted one.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Demos</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="/assets/videos/iccv23_6884_demo.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            House.
+         </h2>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="/assets/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Gallery.
+         </h2>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="/assets/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Library.
+         </h2>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="/assets/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Street.
+         </h2>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="/assets/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Building.
+         </h2>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="/assets/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Village.
+         </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="/assets/pdf/2023_MPOT.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{zhang2023multiple,
+  title={Multiple Planar Object Tracking},
+  author={Zhang, Zhichang and Liu, Shengzhe and Yang, Jufeng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2023}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">this</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
