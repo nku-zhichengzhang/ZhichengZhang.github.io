@@ -9,8 +9,8 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>38 Tongyan Road, Jinnan</p>
-    <p>Tianjin, China</p>
+    38 Tongyan Road, Jinnan
+    Tianjin, China
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
