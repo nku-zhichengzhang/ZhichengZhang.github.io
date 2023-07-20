@@ -18,11 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+
 I'm a second year PhD student from [School of CS](https://cc.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). I am very fortunate to be advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab from Nankai University.
 
 
 My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. You can find my CV here: [Zhicheng Zhang's Curriculum Vitae](../assets/NKU_zzc_CV_nounderreview.pdf).
-
 
 
 For our works, we provide interesting [demos](/projects/) for fun. Some examples are listed and you can also upload yours. Moreover, please feel free to make any suggestions. You can contact with me in following ways:
