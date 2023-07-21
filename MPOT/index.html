@@ -146,12 +146,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- <video poster="" id="tree" autoplay controls loop height="100%"> -->
-        <!-- Your video here -->
-        <!-- <source src="/assets/videos/iccv23_6884_demo.mp4" -->
-        <!-- type="video/mp4"> -->
-      <!-- </video> -->
-      {% include video.html path="/assets/videos/iccv23_6884_demo.mp4" class="img-fluid rounded z-depth-1" controls=true loop=true height="100%"%}
+      <figure>
+        <video autoplay controls loop height="100%">
+          <source src="/assets/videos/iccv23_6884_demo.mp4 | relative_url">
+        </video>
+      </figure>
+      
+      <!-- {% include video.html path="/assets/videos/iccv23_6884_demo.mp4" class="img-fluid rounded z-depth-1" controls=true loop=true height="100%"%} -->
       <h2 class="subtitle has-text-centered">
         <b>Key Motivation:</b> Tracking both location and pose of multiple planar objects is of great significance to numerous real-world applications, including industrial, education, geometric, art, and our daily life. With the help of MPOT, we can track targets when multiple planar objects exist, e.g., different surfaces of an object or planes from various objects.
       </h2>
