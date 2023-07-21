@@ -19,25 +19,25 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
         <center>
             <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
         </center>
-        {% include video.html path="assets/video/sadness.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+        {% include video.html path="assets/video/ver/sadness.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Trust</span>
         </center>
-        {% include video.html path="assets/video/vlog.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+        {% include video.html path="assets/video/ver/vlog.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Fear</span>
         </center>
-        {% include video.html path="assets/video/maqima.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+        {% include video.html path="assets/video/ver/maqima.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Anticipation</span>
         </center>
-        {% include video.html path="assets/video/mv.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+        {% include video.html path="assets/video/ver/mv.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
 </div>
 <div class="caption">
@@ -50,19 +50,19 @@ Emotion refers to a person's disposition to respond to the media carrier. To thi
         <center>
             <span class="label label-default"><span style="color:red;font-weight:bold;">Neg</span>-Sadness</span>
         </center>
-        {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+        {% include video.html path="assets/video/ver/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-4 mt-md-0">
         <center>
             <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Surprise</span>
         </center>
-        {% include video.html path="assets/video/animal.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+        {% include video.html path="assets/video/ver/animal.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-4 mt-md-0">
         <center>
             <span class="label label-default"><span style="color:green;font-weight:bold;">Pos</span>-Joy</span>
         </center>
-        {% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+        {% include video.html path="assets/video/ver/pexels.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
@@ -76,7 +76,7 @@ The subject also covers humans, animals, landscapes, and others.
 
 <div class="row">
     <div class="col-sm">
-        {% include video.html path="assets/video/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+        {% include video.html path="assets/video/ver/yanzi.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
     <!-- <div class="col-sm mt-6 mt-md-0"> -->
     <div class="col-sm">
