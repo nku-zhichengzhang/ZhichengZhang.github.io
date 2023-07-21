@@ -22,10 +22,11 @@ social: true  # includes social icons at the bottom of the page
 I'm a second year PhD student from [School of CS](https://cc.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). I am very fortunate to be advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab from Nankai University. 
 
 
-My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [Zhicheng Zhang's Curriculum Vitae](../assets/pdf/NKU_zzc_CV_nounderreview.pdf) and [here](/cv/).
+My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [Zhicheng Zhang's Curriculum Vitae](../assets/pdf/NKU_zzc_CV_nounderreview.pdf) and [Webpage](/cv/).
 
 
 For our works, we provide interesting [demos](/projects/) for fun. Some examples are listed and you can also upload yours. Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+
 [Email1](mailto:gloryzzc6@sina.com) / [Email2](mailto:1120210216@mail.nankai.edu.cn) / [Github](https://github.com/nku-zhichengzhang) / [Wechat](../assets/img/Wechat.png)
 
 <!-- <center class="half">
