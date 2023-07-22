@@ -9,8 +9,8 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
-    38 Tongyan Road, Jinnan Distinct
-    Tianjin, China
+    38 Tongyan Road, 13 # 428,
+    Tianjin 300350, China
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
