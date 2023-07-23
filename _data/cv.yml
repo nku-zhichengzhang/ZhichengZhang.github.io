@@ -93,15 +93,41 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Diffusion Models.
+      items:
+        - Efficient DM.
+        - DM with external knowledge.
+
+    - title: Self-Supervised Learning.
+      items:
+        - Masked Autoencoder.
+        - Contrastive Learning.
+
+    - title: Multimodal Learning.
+      items:
+        - Video-Language Pretraining.
+        - Video-Language Matching.
+        - Video Classification.
+
+    - title: Video Tracking.
+      items:
+        - Multiple Object Tracking.
+        - Video Object Tracking.
+        - Cell Tracking.
+    
     - title: Geometric Analysis.
       items: 
         - Plane Segmentation.
+        - Plane Reconstruction.
         - Plane Tracking.
+
     - title: Affective Computing.
       items:
         - Video Emotion Recognition.
         - Video Emotion Detection.
         - Temporal Sentiment Localization.
+
+
 
 - title: Other Interests
   type: list
