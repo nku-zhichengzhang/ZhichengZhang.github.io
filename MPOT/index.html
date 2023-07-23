@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>MPOTS</title>
+  <title>MPOT</title>
   <link rel="icon" type="image/x-icon" href="/assets/img/mpot/mpot_logo.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -43,96 +43,120 @@
   <script src="/assets/js/mpot.js"></script>
 </head>
 <body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://zzcheng.top">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+      </a>
 
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://zzcheng.top/tsl300">
+            TSL300 - ACMMM 2022
+          </a>
+          <a class="navbar-item" href="https://pengsongyou.github.io/wecl">
+            WECL - CVPR 2023
+          </a>
+          <a class="navbar-item" href="https://pengsongyou.github.io/PSeg">
+            PlaneSeg - TNNLS 2023
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Multiple Planar Object Tracking<br>(ICCV 2023)</h1>
+          <!-- Paper authors -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://zzcheng.top/" target="_blank">Zhicheng Zhang</a>,
+            </span>
+            <span class="author-block">
+              Shengzhe Liu,
+            </span>
+            <span class="author-block">
+              <a href="https://cv.nankai.edu.cn/" target="_blank">Jufeng Yang</a>
+            </span>
+          </div>
+
+          <!-- Institution -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">College of Computer Science<br>Nankai University, China</span>
+          </div>
+
+          <!-- Links -->
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Multiple Planar Object Tracking and Segmentation<br>(ICCV 2023 & TNNLS 2023)</h1>
-            <div class="is-size-5 publication-authors">
-
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://zzcheng.top/" target="_blank">Zhicheng Zhang</a>
+            <div class="publication-links">
+              <!-- Arxiv PDF link -->
+              <span class="link-block">
+                <a href="https://zzcheng.top/MPOTS" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
               </span>
-              <span class="author-block">
-                and
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/nku-zhichengzhang/MPOT" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
               </span>
-              <span class="author-block">
-                <a href="https://cv.nankai.edu.cn/" target="_blank">Jufeng Yang</a>
+
+              <span class="link-block">
+                <a href="https://zzcheng.top/MPOT" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Dataset [TBD]</span>
+                </a>
               </span>
-            </div>
 
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">College of Computer Science<br>Nankai University, China</span>
-            </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                      <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://zzcheng.top/MPOTS" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/nku-zhichengzhang/MPOT" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
+              <span class="link-block">
+                <a href="https://zzcheng.top/MPOT" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
                   </span>
+                  <span>Video [TBD]</span>
+                </a>
+              </span>
 
-                  <span class="link-block">
-                    <a href="https://zzcheng.top/MPOTS" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Dataset [TBD]</span>
-                  </a>
+              <span class="link-block">
+                <a href="https://zzcheng.top/MPOT" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
                   </span>
-
-                  <span class="link-block">
-                    <a href="https://zzcheng.top/MPOTS" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Video [TBD]</span>
-                  </a>
-                  </span>
-
-                  <span class="link-block">
-                    <a href="https://zzcheng.top/MPOTS" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Online Demo [TBD]</span>
-                  </a>
-                  </span>
-
-                  <!-- ArXiv abstract Link -->
-                  <!-- <span class="link-block">
-                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv</span>
-                    </a>
-                  </span> -->
+                  <span>Online Demo [TBD]</span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -151,15 +175,14 @@
           <source src="/assets/video/mpot/iccv23_demo.mp4">
         </video>
       </figure>
-      
-      
       <h2 class="subtitle has-text-centered">
-        <b>Key Motivation:</b> Tracking both location and pose of multiple planar objects is of great significance to numerous real-world applications, including industrial, education, geometric, art, and our daily life. With the help of MPOT, we can track targets when multiple planar objects exist, e.g., different surfaces of an object or planes from various objects.
+        <b>MPOT</b> aims to track both location and pose of multiple planar objects simultaneously. The first large-scale dataset <b>MPOT-3K</b> is released on <a href="https://github.com/nku-zhichengzhang/MPOT" target="_blank">here</a>.
       </h2>
     </div>
   </div>
 </section>
 <!-- End teaser video -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -184,38 +207,11 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">MPOT task</h2>
+        <h2 class="title is-3">MPOT</h2>
         <div class="content has-text-justified">
-          <h4 class="title is-4 ">Definition</h4>
-          <img src="/assets/img/mpot/fig8_reform_03073.png">
-          <p>
-            <b>Fig.1: Illustration of the reformulated form of MPOT.</b> MPOT predict heatmaps of four ordered vertexes and the mask for each planar object. The stacked masks are built in a layered structure and are responsible for the  occluders and occludees. The ordered vertexes are crucial for tracking the pose of targets.
-          </p>
-          <br>
-          <p>
-            Assume multiple planar objects exists in an RGB video where they are not from the training set, nor have detection results. Given the user-selected ones in the initial frame, the objective is to continuously track their position change relative to the start of tracking, i.e., homography matrix, with which the pose change of targets can be obtained.
-
-            As shown in Fig. 1, we reformulate the tracking task as predicting the masks of the quadrangle and the heatmap of four ordered vertexes. The layered masks represent the location of multiple planar objects and the vertexes are used to track the pose of planar objects.
-          </p>
-        </div>
-
-        <div class="content has-text-justified">
-          <h4 class="title is-4 center">Task Correlation</h4>
-          <img src="/assets/img/mpot/Tasks.jpg">
-          <p>
-            <b>Tab.1: Comparison with other video-related tasks.</b> We compare MPOT with five RGB tracking tasks and four tasks with auxiliary modality information.
-          </p>
-          <br>
-          <p>
-            MPOT is closely related to well-known computer vision tasks in RGB tracking. Both tasks involve tracking the target across subsequent frames of a video using the ground truth provided in the initial frame.
-          </p>
-        </div>
-
-        <div class="content has-text-justified">
-          <h4 class="title is-4 center">Challenges</h4>
           <img src="/assets/img/mpot/fig1o11.png">
           <p>
-            <b>Fig.1: Comparison with other vision tasks.</b> Given an image (a), we present the ground truth for different tasks in (b). The corresponding Degree-of-Freedom (DoF) is reported at the bottom and the details are listed on the right side of each task. In (c), we show the tracking results for box-based tasks (e.g., VOT, RVOT), mask-based tasks (e.g., VOS), and POT, which can find the occluded regions (marked by the red line area) and provide pixel-to-pixel matching correspondence (colored points across frames).
+            Given an image (a), we present the ground truth for different tasks in (b). The corresponding Degree-of-Freedom (DoF) is reported at the bottom and the details are listed on the right side of each task. In (c), we show the tracking results for box-based tasks (e.g., VOT, RVOT), mask-based tasks (e.g., VOS), and POT, which can find the occluded regions (marked by the red line area) and provide pixel-to-pixel matching correspondence (colored points across frames).
           </p>
           <br>
           <h4 class="title is-5">Challenge 1: High Degree of Freedom</h4>
@@ -243,7 +239,6 @@
           <section class="hero is-small is-light">
             <div class="hero-body">
               <div class="container">
-                
                 <div id="results-carousel" class="carousel results-carousel">
                  <div class="item">
                   <img src="/assets/img/mpot/Gallery.jpg" alt="First slide"/>
@@ -277,18 +272,15 @@
             We yield the first large-scale dataset MPOT-3K, which obtain 356 videos with 3,717 planar objects from 42 scenes. The number of planar objects per video averages 10.44 and can reach 74 at most. MPOT-3K is divided into training, validation, and test set in a proportion of 80:5:15. Actually, the split is performed at the scene level to ensure there's no overlap among splits. Hence the dataset avoids data leakage since both the target and scene of the test set are expelled during training.
           </p>
         </div>
-        
-        
-        
         <div class="content has-text-justified">
           <h4 class="title is-4 center">Data Statistics</h4>
-          <img src="/assets/img/mpot/relmov_0307.png" >
+          <!-- <img src="/assets/img/mpot/relmov_0307.png" >
           <p>
-            <b>Fig.2: Statistics of occlusion in MPOT-3K.</b> (a) shows the  frequency of occlusion in six types of scenes, in which the number on the left indicates the number of planar objects being occluded and the one in shadow represents the corresponding proportion. (b) illustrates the number of occlusions per video as well as the temporal length per occlusion.
+            (a) shows the frequency of occlusion in six types of scenes, in which the number on the left indicates the number of planar objects being occluded and the one in shadow represents the corresponding proportion. (b) illustrates the number of occlusions per video as well as the temporal length per occlusion.
           </p>
-          <br>
+          <br> -->
           <p>
-            MPOT-3K contains over 9.8 times more annotations and 13.2 times more targets in all video frames than the largest POT dataset POT280. The number of targets is almost 3 times of the popular MOT16 dataset. To the best of our knowledge, MPOT-3K is the first large-scale dataset for the challenging task of MPOT. Another strength of MPOT-3K lies in its diversity, which covers 9 motion patterns and 6 types of scenes. Besides, MPOT-3K introduces more complex occlusions. As shown in Fig.2 (a), we observe that occlusion occurs in all the scenes, where 39.9% of planar objects are occluded on average. Fig.2 (b) further illustrates that there are 3.6 occlusions happening in a video on average and each occlusion lasts 9.56 seconds.
+            MPOT-3K contains over 9.8 times more annotations and 13.2 times more targets in all video frames than the largest POT dataset POT280. The number of targets is almost 3 times of the popular MOT16 dataset. To the best of our knowledge, MPOT-3K is the first large-scale dataset for the challenging task of MPOT. Another strength of MPOT-3K lies in its diversity, which covers 9 motion patterns and 6 types of scenes. Besides, MPOT-3K introduces more complex occlusions. It occurs in all the scenes, where 39.9% of planar objects are occluded on average. In MPOT-3K, there are 3.6 occlusions happening in a video on average and each occlusion lasts 9.56 seconds.
           </p>
         </div>
       </div>
@@ -323,7 +315,7 @@
 </section> -->
 <!-- End youtube video -->
 
-<section class="section hero">
+<!-- <section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -340,9 +332,9 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- Video carousel -->
-<section class="section hero is-small">
+<section class="section hero">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Video Demos</h2>
