@@ -27,7 +27,15 @@ My research interests include computer vision and deep learning, particularly fo
 
 For our works, we provide interesting [demos](/projects/) for fun. Some examples are listed and you can also upload yours. Moreover, please feel free to make any suggestions. You can contact with me in following ways:
 
-[Email1](mailto:gloryzzc6@sina.com) / [Email2](mailto:1120210216@mail.nankai.edu.cn) / [Github](https://github.com/nku-zhichengzhang) / [Wechat](../assets/img/Wechat.png)
+
+<p align=center>
+  <a href="mailto:gloryzzc6@sina.com">Email</a> &nbsp|&nbsp
+  <a href="../assets/pdf/NKU_zzc_CV_nounderreview.pdf">CV</a> &nbsp|&nbsp
+  <a href="https://github.com/nku-zhichengzhang">GitHub</a> &nbsp|&nbsp
+  <a href="https://scholar.google.com/citations?user=NcTLUzIAAAAJ">Google Scholar</a> &nbsp|&nbsp
+  <a href="../assets/img/Wechat.png">Wechat</a> &nbsp|&nbsp
+</p>
+
 
 <!-- <center class="half">
     <img src="../assets/img/Github_Wechat.jpg" width="200"/>
