@@ -11409,15 +11409,15 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 60rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: #F29105;
   background-image: url("../img/pop/pop_back.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: 1200px;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
