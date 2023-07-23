@@ -29,11 +29,11 @@ For our works, we provide interesting [demos](/projects/) for fun. Some examples
 
 
 <p align=center>
-  <a href="mailto:gloryzzc6@sina.com">Email</a> | 
-  <a href="../assets/pdf/NKU_zzc_CV_nounderreview.pdf">CV</a> | 
-  <a href="https://github.com/nku-zhichengzhang">GitHub</a> | 
-  <a href="https://scholar.google.com/citations?user=NcTLUzIAAAAJ">Google Scholar</a> | 
-  <a href="../assets/img/Wechat.png">Wechat</a>
+  <a href="mailto:gloryzzc6@sina.com"><b>Email</b></a> | 
+  <a href="../assets/pdf/NKU_zzc_CV_nounderreview.pdf"><b>CV</b></a> | 
+  <a href="https://github.com/nku-zhichengzhang"><b>GitHub</b></a> | 
+  <a href="https://scholar.google.com/citations?user=NcTLUzIAAAAJ"><b>Google Scholar</b></a> | 
+  <a href="../assets/img/Wechat.png"><b>Wechat</b></a>
 </p>
 
 
