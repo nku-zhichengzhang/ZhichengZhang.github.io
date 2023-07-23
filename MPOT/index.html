@@ -340,9 +340,9 @@
             <br>
             1. <em>Memory Pool module</em>. Given a planar target, we reformulate the problem of tracking as predicting its mask and the ordered vertexes. The high-dimensional mask can accurately model the change of targets.
             <br>
-            2. <em>Appearance Perception</em>. We use a dual-branch network to predict based on the historical tracking results.
+            2. <em>Appearance Perception</em>. We use a dual-branch network to predict based on the historical tracking results. The masks are aggregated with a multi-layered layout, i.e., a stack of occluders and occludees.
             <br>
-            3. <em>Occlusion Reasoning</em>. To solve the cases of complex occlusion, we indicate the occluded part by trajectory and then fuse the occluded area with the coarse results.
+            3. <em>Occlusion Reasoning</em>. To solve the cases of complex occlusion, we indicate the occluded part by trajectory, which is predicted by factorized homography matrix, and then fuse the occluded area with the coarse results.
           </p>
         </div>
       </div>
