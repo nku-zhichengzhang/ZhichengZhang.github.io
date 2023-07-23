@@ -134,7 +134,7 @@
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
-                  <span>Dataset [TBD]</span>
+                  <span>Dataset (coming soon)</span>
                 </a>
               </span>
 
@@ -144,7 +144,7 @@
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
-                  <span>Video [TBD]</span>
+                  <span>Video (coming soon)</span>
                 </a>
               </span>
 
@@ -154,7 +154,7 @@
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
-                  <span>Online Demo [TBD]</span>
+                  <span>Online Demo (coming soon)</span>
                 </a>
               </span>
             </div>
@@ -170,13 +170,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <h2 class="title is-3">Explanary Video</h2>
       <figure>
         <video autoplay controls loop height="100%">
           <source src="/assets/video/mpot/iccv23_demo.mp4">
         </video>
       </figure>
       <h2 class="subtitle has-text-centered">
-        <b>MPOT</b> aims to track both location and pose of multiple planar objects simultaneously. The first large-scale dataset <b>MPOT-3K</b> is released on <a href="https://github.com/nku-zhichengzhang/MPOT" target="_blank">here</a>.
       </h2>
     </div>
   </div>
@@ -191,6 +191,9 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
+          <p>
+            <b>TL;DR: We present MPOT, a new task to track both location and pose of multiple planar objects simultaneously. The first large-scale dataset MPOT-3K is released on <a href="https://github.com/nku-zhichengzhang/MPOT" target="_blank">here</a>.</b>
+          </p>
           <p>
             Tracking both location and pose of multiple planar objects (MPOT) is of great significance to numerous real-world applications. The greater degree-of-freedom of planar objects compared with common objects makes MPOT far more challenging than well-studied object tracking, especially when occlusion occurs. To address this challenging task, we are inspired by amodal perception that humans jointly track visible and invisible parts of the target, and propose a tracking framework that unifies appearance perception and occlusion reasoning. Specifically, we present a dual branch network to track the visible part of planar objects, including vertexes and mask. Then, we develop an occlusion area localization strategy to infer the invisible part, i.e., the occluded region, followed by a two-stream attention network finally refining the prediction. To alleviate the lack of data in this field, we build the first large-scale benchmark dataset, namely MPOT-3K. It consists of 3,717 planar objects from 356 videos, and contains 148,896 frames together with 687,417 annotations. The collected planar objects have 9 motion patterns and the videos are shot in 6 types of indoor and outdoor scenes. Extensive experiments demonstrate the superiority of our proposed method on the newly developed MPOT-3K as well as other two popular single planar object tracking datasets.
           </p>
@@ -207,7 +210,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">MPOT</h2>
+        <h2 class="title is-3">MPOT Task</h2>
         <div class="content has-text-justified">
           <img src="/assets/img/mpot/fig1o11.png">
           <p>
@@ -315,26 +318,30 @@
 </section> -->
 <!-- End youtube video -->
 
-<!-- <section class="section hero">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">PRTrack: a tracking framework that unifies appearance perception and occlusion reasoning</h2>
+        <h2 class="title is-3">PRTrack: the proposed tracking-by-reasoning framework</h2>
         <div class="content has-text-justified">
           <img src="/assets/img/mpot/pipeline.png" >
           <p>
-            <b>Fig.4: Pipeline of PRTrack.</b> Our tracking framework is divided into three stages. First, in appearance perception, we track the visible part of multiple planar objects via a dual-branch network, as coarse output. For the next stage of occlusion reasoning, the occlusion area is localized and then fed into a two-stream self-attention network for refining the predicted target. Finally, the memory pool module restores the high-confident tracked targets.
-          </p>
-          <p>
-            PRTrack consists of three main components (See Fig.3): memory pool module, appearance perception network, and occlusion reasoning network. The memory pool module restores the previous predictions and expels the low confident targets. Guided by previously tracked targets, the appearance perception network predicts mask together with the vertexes for each planar object. The occlusion reasoning network further takes all the tracked target and corresponding occlusion area, which is indicated by the difference between motion-guided results among multiple targets and the predicted one.
+            <strong>How to track multiple planar objects against occlusion?</strong>
+            <br>
+            1. <em>Memory Pool module</em>. Given a planar target, we reformulate the problem of tracking as predicting its mask and the ordered vertexes. The high-dimensional mask can accurately model the change of targets.
+            <br>
+            2. <em>Appearance Perception</em>. We use a dual-branch network to predict based on the historical tracking results.
+            <br>
+            3. <em>Occlusion Reasoning</em>. To solve the cases of complex occlusion, we indicate the occluded part by trajectory and then fuse the occluded area with the coarse results.
           </p>
         </div>
       </div>
     </div>
   </div>
-</section> -->
+</section>
+
 <!-- Video carousel -->
-<section class="section hero">
+<section class="section hero is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Video Demos</h2>
