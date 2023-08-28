@@ -1,187 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://zzcheng.top/news/announcement_1/</loc>
-<lastmod>2021-09-01T11:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/</loc>
+  <lastmod>2023-08-28T15:28:45+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/news/announcement_2/</loc>
-<lastmod>2022-07-03T11:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/publications/</loc>
+  <lastmod>2023-08-28T15:28:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/news/announcement_3/</loc>
-<lastmod>2023-02-28T15:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/projects/</loc>
+  <lastmod>2023-08-28T15:28:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/news/announcement_4/</loc>
-<lastmod>2023-03-15T15:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/repositories/</loc>
+  <lastmod>2023-08-28T15:28:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/news/announcement_5/</loc>
-<lastmod>2023-05-11T15:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/cv/</loc>
+  <lastmod>2023-08-28T15:28:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/news/announcement_6/</loc>
-<lastmod>2023-07-14T15:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/assets/pdf/NKU_zzc_CV_nounderreview.pdf</loc>
+  <lastmod>2023-08-28T15:28:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/sample-posts/2015/03/15/formatting-and-links.html</loc>
-<lastmod>2015-03-15T16:40:16+00:00</lastmod>
+  <loc>https://zzcheng.top/news/</loc>
+  <lastmod>2023-08-28T15:28:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/sample-posts/2015/05/15/images.html</loc>
-<lastmod>2015-05-15T21:01:00+00:00</lastmod>
+  <loc>https://zzcheng.top/assets/pdf/2022_ACMMM_TSL300.pdf</loc>
+  <lastmod>2023-08-28T15:28:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/sample-posts/2015/07/15/code.html</loc>
-<lastmod>2015-07-15T15:09:00+00:00</lastmod>
+  <loc>https://zzcheng.top/assets/pdf/2023_CVPR_WECL.pdf</loc>
+  <lastmod>2023-08-28T15:28:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/sample-posts/2015/10/20/math.html</loc>
-<lastmod>2015-10-20T15:12:00+00:00</lastmod>
+  <loc>https://zzcheng.top/assets/pdf/2023_TNNLS_PlaneSeg.pdf</loc>
+  <lastmod>2023-08-28T15:28:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://zzcheng.top/sample-posts/external-services/2015/10/20/disqus-comments.html</loc>
-<lastmod>2015-10-20T15:59:00+00:00</lastmod>
+  <loc>https://zzcheng.top/projects/VER/</loc>
+  <lastmod>2023-08-28T15:28:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-<url>
-<loc>https://zzcheng.top/sample-posts/external-services/2020/09/28/twitter.html</loc>
-<lastmod>2020-09-28T15:12:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/external-services/2020/09/28/github-metadata.html</loc>
-<lastmod>2020-09-28T21:01:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/2021/05/22/distill.html</loc>
-<lastmod>2021-05-22T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/2021/07/04/diagrams.html</loc>
-<lastmod>2021-07-04T17:39:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/2022/02/01/redirect.html</loc>
-<lastmod>2022-02-01T17:39:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/external-services/2022/12/10/giscus-comments.html</loc>
-<lastmod>2022-12-10T15:59:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/toc/2023/03/20/table-of-contents.html</loc>
-<lastmod>2023-03-20T15:59:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/2023/03/20/tables.html</loc>
-<lastmod>2023-03-20T18:37:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/2023/04/24/videos.html</loc>
-<lastmod>2023-04-24T21:01:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/2023/04/25/audios.html</loc>
-<lastmod>2023-04-25T10:25:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/toc/sidebar/2023/04/25/sidebar-table-of-contents.html</loc>
-<lastmod>2023-04-25T14:14:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/sample-posts/blockquotes/2023/05/12/custom-blockquotes.html</loc>
-<lastmod>2023-05-12T19:53:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/2022/04/23/displaying-external-posts-on-your-al-folio-blog.html</loc>
-<lastmod>2022-04-23T23:20:09+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/projects/VER/</loc>
-<lastmod>2023-08-28T15:27:46+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/cv/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/news/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/projects/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/publications/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/repositories/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/formatting/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/links/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/images/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/code/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/math/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/including/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/videos/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/tag/audios/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/category/sample-posts/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/category/external-services/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/category/toc/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/category/sidebar/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/category/blockquotes/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/2015/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/2020/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/2021/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/2022/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/2023/</loc>
-</url>
-<url>
-<loc>https://zzcheng.top/MPOT/</loc>
-<lastmod>2023-08-28T15:27:25+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/POP/</loc>
-<lastmod>2023-08-28T15:27:25+00:00</lastmod>
-</url>
-<url>
-<loc>https://zzcheng.top/google26ecd3d5b6f72e86.html</loc>
-<lastmod>2023-08-28T15:27:26+00:00</lastmod>
-</url>
+
+
 </urlset>
