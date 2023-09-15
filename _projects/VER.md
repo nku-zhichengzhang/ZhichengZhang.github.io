@@ -117,7 +117,7 @@ The subject also covers humans, animals, landscapes, and others.
 ## Online Demo
 ---
 We also provide an online demo that can upload any video you like.
-Due to the limitation of computation power of our server, if you want to process images in batch, please refer to our provided script on [Github:WECL](https://github.com/nku-zhichengzhang/WECL) or [Github:TSL](https://github.com/nku-zhichengzhang/TSL300).
+Due to the limitation of computation power of our server, if you want to process images in batch, please refer to our provided script on [Github:CTEN](https://github.com/nku-zhichengzhang/CTEN) or [Github:TSL](https://github.com/nku-zhichengzhang/TSL300).
 
 
 ## Related Papers
