@@ -37,6 +37,3 @@ For our works, we provide interesting [demos](/projects/) for fun. Some examples
 </p>
 
 
-
-
-备案号：<a href="http://www.beian.miit.gov.cn/">粤ICP备2021014991号-1</a>
