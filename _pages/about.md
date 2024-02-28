@@ -37,7 +37,6 @@ For our works, we provide interesting [demos](/projects/) for fun. Some examples
 </p>
 
 
-<!-- <center class="half">
-    <img src="../assets/img/Github_Wechat.jpg" width="200"/>
-</center> -->
-<a href="http://www.beian.miit.gov.cn/">粤ICP备2021014991号-1</a>
+
+
+备案号：<a href="http://www.beian.miit.gov.cn/">粤ICP备2021014991号-1</a>
