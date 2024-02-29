@@ -122,6 +122,7 @@ Due to the limitation of computation power of our server, if you want to process
 
 ## Related Papers
 ---
+- MART: Masked Affective RepresenTation Learning via Masked Temporal Distribution Distillation. Zhicheng Zhang, Pancheng Zhao, Eunil Pard, and Jufeng Yang, IEEE CVPR, 2024.
 - Weakly Supervised Video Emotion Detection and Prediction via Cross-Modal Temporal Erasing Network. Zhicheng Zhang, Lijuan Wang, and Jufeng Yang, IEEE CVPR, 2023.
 - Temporal Sentiment Localization: Listen and Look in Untrimmed Videos. Zhicheng Zhang and Jufeng Yang, ACM Multimedia, 2022.
 - Emotion, Theory, Research, and Experience: Theories of emotion. Kellerman Henry and Robert Plutchik, Academic Press, 1980.
