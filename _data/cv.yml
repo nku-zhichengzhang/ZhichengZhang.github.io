@@ -81,6 +81,7 @@
     - year: 2023
       items: 
         - SK AI Innovation Award
+        - China National Scholarship (PhD Student)
 
 - title: Academic Service
   type: nested_list
@@ -89,12 +90,15 @@
       items: 
         - ACMMM23.
         - PRCV23.
+        - CVPR24.
+        - ECCV24.
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Diffusion Models.
       items:
+        - Video DM.
         - Efficient DM.
         - DM with external knowledge.
 
