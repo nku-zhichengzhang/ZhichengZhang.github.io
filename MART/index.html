@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Homepage of ExtDM"/>
+  <meta name="description" content="Homepage of MART"/>
   <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
   <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
@@ -22,8 +22,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>ExtDM</title>
-  <link rel="icon" type="image/x-icon" href="/assets/img/extdm/logo_remove.png">
+  <title>MART</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/mart/logo.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -94,10 +94,10 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <!-- Abbreviation -->
-          <h1 class="title is-1 publication-title"><img src="/assets/img/extdm/logo_remove.png" style="vertical-align: sub;" width="70">&nbsp;ExtDM</h1>
+          <h1 class="title is-1 publication-title"><img src="/assets/img/mart/logo.png" style="vertical-align: sub;" width="70">&nbsp;MART</h1>
 
           <!-- Title -->
-          <h1 class="title is-1 publication-title">Distribution Extrapolation Diffusion Model for Video Prediction</h1>
+          <h1 class="title is-1 publication-title">Masked Affective RepresenTation Learning via Masked Temporal Distribution Distillation</h1>
 
           <!-- Publication -->
           <div class="column is-full_width">
@@ -110,13 +110,10 @@
               <a href="https://zzcheng.top/" target="_blank">Zhicheng Zhang</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
-              Junyao Hu<sup>1,2</sup>,
+              <a href="https://zhaopancheng.top/" target="_blank">Pancheng Zhao</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://wtchengcv.github.io/" target="_blank">Wentao Cheng</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://people.ee.ethz.ch/~paudeld/" target="_blank">Danda Paudel</a><sup>3,4</sup>,
+              Eunil Park<sup>3</sup>,
             </span>
             <span class="author-block">
               <a href="https://cv.nankai.edu.cn/" target="_blank">Jufeng Yang</a><sup>1,2</sup>
@@ -127,8 +124,7 @@
           <div class="is-size-5 publication-authors">
             <sup>1</sup><span class="author-block">VCIP & TMCC & DISSec, College of Computer Science, Nankai University</span><br>
             <sup>2</sup><span class="author-block">Nankai International Advanced Research Institute (SHENZHEN·FUTIAN)</span><br>
-            <sup>3</sup><span class="author-block">Computer Vision Lab, ETH Zurich</span><br>
-            <sup>4</sup><span class="author-block">INSAIT, Sofia University</span><br>
+            <sup>3</sup><span class="author-block">Data experience Laboratory, College of Computing, Sungkyunkwan University</span><br>
           </div>
 
           <!-- Links -->
@@ -147,7 +143,7 @@
 
               <!-- Github link -->
               <span class="link-block">
-                <a href="https://github.com/nku-zhichengzhang/ExtDM" target="_blank"
+                <a href="https://github.com/nku-zhichengzhang/MART" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fab fa-github"></i>
@@ -201,11 +197,11 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            <b>TL;DR: We present ExtDM, a new diffusion model that extrapolates video content from current frames by accurately modeling distribution shifts towards future frames.
+            <b>TL;DR: We present MART, an MAE-style self-supervised method for learning robust affective representation of videos that exploits the sentiment complementary and emotion intrinsic among temporal segments.
             </b>
           </p>
           <p>
-            Video prediction is a challenging task due to its nature of uncertainty, especially for forecasting a long period. To model the temporal dynamics, advanced methods benefit from the recent success of diffusion models, and repeatedly refine the predicted future frames with 3D spatiotemporal U-Net. However, there exists a gap between the present and future and the repeated usage of U-Net brings a heavy computation burden. To address this, we propose a diffusion-based video prediction method that predicts future frames by extrapolating the present distribution of features, namely ExtDM. Specifically, our method consists of three components: (i) a motion autoencoder conducts a bijection transformation between video frames and motion cues; (ii) a layered distribution adaptor module extrapolates the present features in the guidance of Gaussian distribution; (iii) a 3D U-Net architecture specialized for jointly fusing guidance and features among the temporal dimension by spatiotemporal-window attention. Extensive experiments on five popular benchmarks covering short- and long-term video prediction verify the effectiveness of ExtDM.
+            Limited training data is a long-standing problem for video emotion analysis (VEA). Existing works leverage the power of large-scale image datasets for transferring while failing to extract the temporal correlation of affective cues in the video. Inspired by psychology research and empirical theory, we verify that the degree of emotion may vary in different segments of the video, thus introducing the sentiment complementary and emotion intrinsic among temporal segments. We propose an MAE-style method for learning robust affective representation of videos via masking, termed MART. First, we extract the affective cues of the lexicon and verify the extracted one by computing its matching score with video content. The hierarchical verification strategy is proposed, in terms of sentiment and emotion, to identify the matched cues alongside the temporal dimension. Then, with the verified cues, we propose masked affective modeling to recover temporal emotion distribution. We present temporal affective complementary learning that pulls the complementary part and pushes the intrinsic part of masked multimodal features, for learning robust affective representation. Under the constraint of affective complementary, we leverage cross-modal attention among features to mask the video and recover the degree of emotion among segments. Extensive experiments on five benchmark datasets demonstrate the superiority of our method in video sentiment analysis, video emotion recognition, multimodal sentiment analysis, and multimodal emotion recognition.
           </p>
         </div>
       </div>
@@ -268,9 +264,9 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{zhang2024ExtDM,
-  title={ExtDM: Distribution Extrapolation Diffusion Model for Video Prediction},
-  author={Zhang, Zhicheng and Hu, Junyao and Cheng, Wentao and Paudel, Danda and Yang, Jufeng},
+      <pre><code>@inproceedings{zhang2024MART,
+  title={MART: Masked Affective RepresenTation Learning via Masked Temporal Distribution Distillation},
+  author={Zhang, Zhicheng and Zhao, Pancheng and Park, Eunil and Yang, Jufeng},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2024}
 }</code></pre>
