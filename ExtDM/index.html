@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Homepage of ExtDM"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ExtDM</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/extdm/logo_remove.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/bulma.min.css">
+  <link rel="stylesheet" href="/assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="/assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="/assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/css/mpot.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="/assets/js/fontawesome.all.min.js"></script>
+  <script src="/assets/js/bulma-carousel.min.js"></script>
+  <script src="/assets/js/bulma-slider.min.js"></script>
+  <script src="/assets/js/mpot.js"></script>
+</head>
+<body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://zzcheng.top">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://zzcheng.top/ExtDM">
+            ExtDM - CVPR 2024
+          </a>
+          <a class="navbar-item" href="https://zzcheng.top/MART">
+            MART - CVPR 2024
+          </a>
+          <a class="navbar-item" href="https://zzcheng.top/MPOT">
+            MPOT - ICCV 2023
+          </a>
+          <a class="navbar-item" href="https://zzcheng.top/CTEN">
+            CTEN - CVPR 2023
+          </a>
+          <a class="navbar-item" href="https://zzcheng.top/PlaneSeg">
+            PlaneSeg - TNNLS 2023
+          </a>
+          <a class="navbar-item" href="https://zzcheng.top/tsl300">
+            TSL300 - ACMMM 2022
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- Abbreviation -->
+          <h1 class="title is-1 publication-title"><img src="/assets/img/extdm/logo_remove.png" style="vertical-align: sub;" width="70">&nbsp;&nbsp;ExtDM</h1>
+
+          <!-- Title -->
+          <h1 class="title is-1 publication-title">Distribution Extrapolation Diffusion Model for Video Prediction</h1>
+
+          <!-- Publication -->
+          <div class="column is-full_width">
+            <h2 class="title is-4">CVPR 2024</h2>
+          </div>
+
+          <!-- Paper authors -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://zzcheng.top/" target="_blank">Zhicheng Zhang</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              Junyao Hu<sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://wtchengcv.github.io/" target="_blank">Wentao Cheng</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://people.ee.ethz.ch/~paudeld/" target="_blank">Danda Paudel</a><sup>3,4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://cv.nankai.edu.cn/" target="_blank">Jufeng Yang</a><sup>1,2</sup>
+            </span>
+          </div>
+
+          <!-- Institution -->
+          <div class="is-size-5 publication-authors">
+            <sup>1</sup><span class="author-block">VCIP & TMCC & DISSec, College of Computer Science, Nankai University</span><br>
+            <sup>2</sup><span class="author-block">Nankai International Advanced Research Institute (SHENZHEN·FUTIAN)</span><br>
+            <sup>3</sup><span class="author-block">Computer Vision Lab, ETH Zurich</span><br>
+            <sup>4</sup><span class="author-block">INSAIT, Sofia University</span><br>
+          </div>
+
+          <!-- Links -->
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF link -->
+              <span class="link-block">
+                <a href="/assets/pdf/2023_ICCV_MPOT.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/nku-zhichengzhang/ExtDM" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://zzcheng.top/MPOT#Demo" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Demo</span>
+                </a>
+              </span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser" id="Video">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Explanatory Video</h2>
+      <figure>
+        <video autoplay controls loop height="100%">
+          <source src="/assets/video/mpot/iccv23_demo.mp4">
+        </video>
+      </figure>
+      <h2 class="subtitle has-text-centered">
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>TL;DR: We present ExtDM, a new diffusion model that extrapolates video content from current frames by accurately modeling distribution shifts towards future frames.
+            </b>
+          </p>
+          <p>
+            Video prediction is a challenging task due to its nature of uncertainty, especially for forecasting a long period. To model the temporal dynamics, advanced methods benefit from the recent success of diffusion models, and repeatedly refine the predicted future frames with 3D spatiotemporal U-Net. However, there exists a gap between the present and future and the repeated usage of U-Net brings a heavy computation burden. To address this, we propose a diffusion-based video prediction method that predicts future frames by extrapolating the present distribution of features, namely ExtDM. Specifically, our method consists of three components: (i) a motion autoencoder conducts a bijection transformation between video frames and motion cues; (ii) a layered distribution adaptor module extrapolates the present features in the guidance of Gaussian distribution; (iii) a 3D U-Net architecture specialized for jointly fusing guidance and features among the temporal dimension by spatiotemporal-window attention. Extensive experiments on five popular benchmarks covering short- and long-term video prediction verify the effectiveness of ExtDM.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+<!-- <section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">PRTrack: Tracking-by-Reasoning Framework</h2>
+        <div class="content has-text-justified">
+          <img src="/assets/img/mpot/pipeline.png" >
+          <p>
+            <strong>How to track multiple planar objects against occlusion?</strong>
+            <br>
+            1. <em>Memory Pool module</em>. Given a planar target, we reformulate the problem of tracking as predicting its mask and the ordered vertexes. The high-dimensional mask can accurately model the change of targets.
+            <br>
+            2. <em>Appearance Perception</em>. We use a dual-branch network to predict based on the historical tracking results. The masks are aggregated with a multi-layered layout, i.e., a stack of occluders and occludees.
+            <br>
+            3. <em>Occlusion Reasoning</em>. To solve the cases of complex occlusion, we indicate the occluded part by trajectory, which is predicted by factorized homography matrix, and then fuse the occluded area with the coarse results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Video carousel -->
+<!-- End video carousel -->
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{zhang2024ExtDM,
+  title={ExtDM: Distribution Extrapolation Diffusion Model for Video Prediction},
+  author={Zhang, Zhicheng and Hu, Junyao and Cheng, Wentao and Paudel, Danda and Yang, Jufeng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2024}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">this</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
