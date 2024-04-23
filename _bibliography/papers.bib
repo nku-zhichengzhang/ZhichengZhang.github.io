@@ -10,6 +10,9 @@
   abstract  = {Video prediction is a challenging task due to its nature of uncertainty, especially for forecasting a long period. To model the temporal dynamics, advanced methods benefit from the recent success of diffusion models, and repeatedly refine the predicted future frames with 3D spatiotemporal U-Net. However, there exists a gap between the present and future and the repeated usage of U-Net brings a heavy computation burden. To address this, we propose a diffusion-based video prediction method that predicts future frames by extrapolating the present distribution of features, namely ExtDM. Specifically, our method consists of three components: (i) a motion autoencoder conducts a bijection transformation between video frames and motion cues; (ii) a layered distribution adaptor module extrapolates the present features in the guidance of Gaussian distribution; (iii) a 3D U-Net architecture specialized for jointly fusing guidance and features among the temporal dimension by spatiotemporal-window attention. Extensive experiments on four popular benchmarks covering short- and long-term video prediction verify the effectiveness of ExtDM.},
   selected={true},
   bibtex_show={true},
+  pdf={2024_CVPR_ExtDM.pdf},
+  html={https://zzcheng.top/ExtDM},
+  code={https://github.com/nku-zhichengzhang/ExtDM},
 }
 
 @inproceedings{zhang2024masked,
@@ -21,6 +24,9 @@
   abstract  = {Limited training data is a long-standing problem for video emotion analysis (VEA). Existing works leverage the power of large-scale image datasets for transferring while failing to extract the temporal correlation of affective cues in the video. Inspired by psychology research and empirical theory, we verify that the degree of emotion may vary in different segments of the video, thus introducing the sentiment complementary and emotion intrinsic among temporal segments. Motivated by this, we propose an MAE-style method for learning robust affective representation of videos via masking, termed MART. The method is comprised of emotional lexicon extraction and masked emotion recovery. First, we extract the affective cues of the lexicon and verify the extracted one by computing its matching score with video content. The hierarchical verification strategy is proposed, in terms of sentiment and emotion, to identify the matched cues alongside the temporal dimension. Then, with the verified cues, we propose masked affective modeling to recover temporal emotion distribution. We present temporal affective complementary learning that pulls the complementary part and pushes the intrinsic part of masked multimodal features, for learning robust affective representation. Under the constraint of affective complementary, we leverage cross-modal attention among features to mask the video and recover the degree of emotion among segments. Extensive experiments on three benchmark datasets demonstrate the superiority of our method in video sentiment analysis, video emotion recognition, multimodal sentiment analysis, and multimodal emotion recognition.},
   selected={true},
   bibtex_show={true},
+  pdf={2024_CVPR_MART.pdf},
+  html={https://zzcheng.top/MART},
+  code={https://github.com/nku-zhichengzhang/MART},
 }
 
 @inproceedings{zhao2024camouflaged,
@@ -32,6 +38,7 @@
   abstract  = {Camouflaged vision perception is an important vision task with numerous practical applications. Due to the expensive collection and labeling costs, this community struggles with a major bottleneck that the species category of its datasets is limited to a small number of object species. However, the existing camouflaged generation methods require specifying the background manually, thus failing to extend the camouflaged sample diversity in a low-cost manner. In this paper, we propose a Latent Background Knowledge Retrieval-Augmented Diffusion (LAKE-RED) for camouflaged image generation. To our knowledge, our contributions mainly include: (1) For the first time, we propose a camouflaged generation paradigm that does not need to receive any background inputs. (2) Our LAKE-RED is the first knowledge retrieval-augmented method with interpretability for camouflaged generation, in which we propose an idea that knowledge retrieval and reasoning enhancement are separated explicitly, to alleviate the task-specific challenges. Moreover, our method is not restricted to specific foreground targets or backgrounds, offering a potential for extending camouflaged vision perception to more diverse domains. (3) Experimental results demonstrate that our method outperforms the existing approaches, generating more realistic camouflage images.},
   selected={false},
   bibtex_show={true},
+  code={https://github.com/PanchengZhao/LAKE-RED},
 }
 
 @article{张知诚2023属性知识引导的自适应视觉感知与结构理解研究进展,
