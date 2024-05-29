@@ -218,13 +218,10 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <div class="content has-text-justified">
-          <image src="/assets/img/extdm/demo.gif" class="center-image">
-        </div>
         <h2 class="title is-3" style="font-family: 'MyFont'; text-align: center; ">Explanatory Video</h2>
         <div style="position: relative; padding: 30% 45%;">
-        <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1dC411E72q&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
-      </div>
+          <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1dC411E72q&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
+        </div>
     </div>
   </div>
 </section>
@@ -243,6 +240,9 @@
             <b>TL;DR: We present ExtDM, a new diffusion model that extrapolates video content from current frames by accurately modeling distribution shifts towards future frames.
             </b>
           </p>
+          <div class="content has-text-justified">
+            <image src="/assets/img/extdm/demo.gif" class="center-image">
+          </div>
           <p>
             Video prediction is a challenging task due to its nature of uncertainty, especially for forecasting a long period. To model the temporal dynamics, advanced methods benefit from the recent success of diffusion models, and repeatedly refine the predicted future frames with 3D spatiotemporal U-Net. However, there exists a gap between the present and future and the repeated usage of U-Net brings a heavy computation burden. To address this, we propose a diffusion-based video prediction method that predicts future frames by extrapolating the present distribution of features, namely ExtDM. Specifically, our method consists of three components: (i) a motion autoencoder conducts a bijection transformation between video frames and motion cues; (ii) a layered distribution adaptor module extrapolates the present features in the guidance of Gaussian distribution; (iii) a 3D U-Net architecture specialized for jointly fusing guidance and features among the temporal dimension by spatiotemporal-window attention. Extensive experiments on five popular benchmarks covering short- and long-term video prediction verify the effectiveness of ExtDM.
           </p>
@@ -257,7 +257,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3" style="font-family: 'MyFont';">Pipeline</h2>
+        <h2 class="title is-3" style="font-family: 'MyFont';">Methodology</h2>
         <div class="content has-text-justified">
           <image src="/assets/img/extdm/2024_CVPR_ExtDM_pipeline.png" class="center-image">
         </div>
@@ -272,12 +272,40 @@
 </section>
 
 
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Quantitative Results</h2>
+          <h3 class="title is-4" style="font-family: 'MyFont';">Trajectory Prediction</h2>
+          <div class="content has-text-justified">
+            <div class="content has-text-justified">
+              <image src="/assets/img/extdm/2024_CVPR_ExtDM_traj.png" class="center-image">
+            </div>
+            <p>
+              <b>Qualitative comparison among SOTA methods.</b> The
+              trajectory of each target is indicated by the <span style="color: #25c92d;"><b>green</b></span> curve.
+            </p>
+          </div>
+          <h3 class="title is-4" style="font-family: 'MyFont';">Extended Functions</h2>
+            <div class="content has-text-justified">
+              <div class="content has-text-justified">
+                <image src="/assets/img/extdm/2024_CVPR_ExtDM_work.png" class="center-image">
+              </div>
+              <p>
+                ExtDM-based video generation framework can boost various directions. Here, we envision two potential uses, for (a) stochastic events on SMMNIST and (b) tailored prediction on BAIR.
+              </p>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3" style="font-family: 'MyFont';">Qualitative Results</h2>
-        <h3 class="title is-4" style="font-family: 'MyFont';">Trade-off between Quality and Speed</h2>
           <div class="content has-text-justified">
             <div class="content has-text-justified">
               <image src="/assets/img/extdm/2024_CVPR_ExtDM_fvd_fps.png" class="center-image">
