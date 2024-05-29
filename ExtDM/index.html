@@ -145,6 +145,16 @@
                 </a>
               </span>
 
+              <span class="link-block">
+                <a href="/assets/pdf/2024_CVPR_ExtDM_chinese.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>中译版</span>
+                </a>
+              </span>
+
               <!-- Github link -->
               <span class="link-block">
                 <a href="https://github.com/nku-zhichengzhang/ExtDM" target="_blank"
@@ -165,6 +175,36 @@
                   <span>Demo</span>
                 </a>
               </span>
+
+              <span class="link-block">
+                <a href="/assets/pdf/2024_CVPR_ExtDM_poster.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-image"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="/assets/pdf/2024_CVPR_ExtDM_slide.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-chart-area"></i>
+                  </span>
+                  <span>Slide</span>
+                </a>
+              </span>
+
+              <span class="link-block" >
+                <a href="https://www.bilibili.com/video/BV1dC411E72q" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-video"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
               
             </div>
           </div>
@@ -174,23 +214,22 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<!-- <section class="hero teaser" id="Video">
+<section class="section">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <h2 class="title is-3">Explanatory Video</h2>
-      <figure>
-        <video autoplay controls loop height="100%">
-          <source src="/assets/video/mpot/iccv23_demo.mp4">
-        </video>
-      </figure>
-      <h2 class="subtitle has-text-centered">
-      </h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <image src="/assets/img/extdm/demo.gif" class="center-image">
+        </div>
+        <h2 class="title is-3" style="font-family: 'MyFont'; text-align: center; ">Explanatory Video</h2>
+        <div style="position: relative; padding: 30% 45%;">
+        <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1dC411E72q&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
+      </div>
     </div>
   </div>
-</section> -->
-<!-- End teaser video -->
+</section>
+
+
 
 
 <!-- Paper abstract -->
@@ -214,51 +253,59 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
-
-<!-- <section class="section hero">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">PRTrack: Tracking-by-Reasoning Framework</h2>
+        <h2 class="title is-3" style="font-family: 'MyFont';">Pipeline</h2>
         <div class="content has-text-justified">
-          <img src="/assets/img/mpot/pipeline.png" >
+          <image src="/assets/img/extdm/2024_CVPR_ExtDM_pipeline.png" class="center-image">
+        </div>
+        <div class="content has-text-justified">
           <p>
-            <strong>How to track multiple planar objects against occlusion?</strong>
-            <br>
-            1. <em>Memory Pool module</em>. Given a planar target, we reformulate the problem of tracking as predicting its mask and the ordered vertexes. The high-dimensional mask can accurately model the change of targets.
-            <br>
-            2. <em>Appearance Perception</em>. We use a dual-branch network to predict based on the historical tracking results. The masks are aggregated with a multi-layered layout, i.e., a stack of occluders and occludees.
-            <br>
-            3. <em>Occlusion Reasoning</em>. To solve the cases of complex occlusion, we indicate the occluded part by trajectory, which is predicted by factorized homography matrix, and then fuse the occluded area with the coarse results.
+            ExtDM uses two mapping functions. The first is the video compression and reconstruction process. The compression and reconstruction process is where we convert video frames into a more compact form, with an emphasis on capturing basic motion cues of scene dynamics. It enables us to handle a more manageable representation of video data, which is critical for subsequent extrapolation processes. Then we extrapolate the diffusion model of our motion distribution. Here, we predict future frames by extrapolating the current feature distribution.
           </p>
         </div>
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
-<!-- Video carousel -->
-<!-- End video carousel -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Qualitative Results</h2>
+        <h3 class="title is-4" style="font-family: 'MyFont';">Trade-off between Quality and Speed</h2>
+          <div class="content has-text-justified">
+            <div class="content has-text-justified">
+              <image src="/assets/img/extdm/2024_CVPR_ExtDM_fvd_fps.png" class="center-image">
+            </div>
+            <p>
+              <b>A comparison of quality and speed of SOTA diffusion
+                models </b> for short-term and long-term video prediction on SMMNIST
+                and KTH, respectively. We report FVD as well as FPS. Note
+                that the FPS axis is in the log scale.
+            </p>
+          </div>
+          <h3 class="title is-4" style="font-family: 'MyFont';">Frame-wise Video Quality</h2>
+            <div class="content has-text-justified">
+              <div class="content has-text-justified">
+                <image src="/assets/img/extdm/2024_CVPR_ExtDM_framewise_psnr.png" class="center-image">
+              </div>
+              <p>
+                <b>Frame-wise comparison on long-term video datasets.</b>
+                we calculate the performance degradation between the first
+                frame and the last one. ExtDM shows low degradation for
+                long-term video prediction, giving us 29.60% better predictions
+                than MCVD (-7.87 v.s -10.20).
+              </p>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
