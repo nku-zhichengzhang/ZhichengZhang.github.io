@@ -73,6 +73,12 @@
     - title: <a href="https://github.com/nku-zhichengzhang/MPOT">MPOT</a>
       year: 2021-now
       description: Code base and demo for our ICCV23 paper.
+    - title: <a href="https://github.com/nku-zhichengzhang/MART">MPOT</a>
+      year: 2023-now
+      description: Code base and demo for our CVPR24 paper.
+    - title: <a href="https://github.com/nku-zhichengzhang/ExtDM">MPOT</a>
+      year: 2023-now
+      description: Code base and demo for our CVPR24 paper.
 
 
 - title: Honors and Awards
@@ -91,6 +97,7 @@
         - CVPR24.
         - ICCV23.
         - ECCV24.
+        - NeurIPS24.
         - ACMMM23,24.
         - PRCV23,24.
 
