@@ -72,11 +72,11 @@
       description: Code base and demo for our TNNLS23 paper.
     - title: <a href="https://github.com/nku-zhichengzhang/MPOT">MPOT</a>
       year: 2021-now
-      description: Code base and demo for our ICCV23 paper.
-    - title: <a href="https://github.com/nku-zhichengzhang/MART">MPOT</a>
+      description: Code base, dataset and demo for our ICCV23 paper.
+    - title: <a href="https://github.com/nku-zhichengzhang/MART">MART</a>
       year: 2023-now
-      description: Code base and demo for our CVPR24 paper.
-    - title: <a href="https://github.com/nku-zhichengzhang/ExtDM">MPOT</a>
+      description: Code base for our CVPR24 paper.
+    - title: <a href="https://github.com/nku-zhichengzhang/ExtDM">ExtDM</a>
       year: 2023-now
       description: Code base and demo for our CVPR24 paper.
 
@@ -88,6 +88,9 @@
       items: 
         - SK AI Innovation Award
         - China National Scholarship (PhD Student)
+    - year: 2024
+      items: 
+        - CVPR24 outstanding reviewer
 
 - title: Academic Service
   type: nested_list
