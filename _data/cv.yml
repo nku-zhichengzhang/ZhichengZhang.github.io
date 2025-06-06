@@ -91,18 +91,29 @@
     - year: 2024
       items: 
         - CVPR24 outstanding reviewer
+        - China National Scholarship (PhD Student)
+        - \"Nankai Shijie\" (Top Ten Graduate Students from Nankai University)
+        - Tianjin Excellent Graduate Student
+        - Doctoral Special Program of the Young Talent Lift Project, China Association for Science and Technology
+    - year: 2025
+      items: 
 
 - title: Academic Service
   type: nested_list
   contents:
     - title: Reviewer.
       items: 
-        - CVPR24.
-        - ICCV23.
-        - ECCV24.
-        - NeurIPS24.
-        - ACMMM23,24.
-        - PRCV23,24.
+        - TIP
+        - TFS
+        - TCSVT
+        - CVPR 24,25.
+        - ICCV 23,25.
+        - ECCV 24.
+        - NeurIPS 24,25.
+        - ACMMM 23,24,25.
+        - ECAI 25.
+        - PRCV 23,24,25.
+
 
 - title: Academic Interests
   type: nested_list
