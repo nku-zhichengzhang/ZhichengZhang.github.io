@@ -95,8 +95,6 @@
         - \"Nankai Shijie\" (Top Ten Graduate Students from Nankai University)
         - Tianjin Excellent Graduate Student
         - Doctoral Special Program of the Young Talent Lift Project, China Association for Science and Technology
-    - year: 2025
-      items: 
 
 - title: Academic Service
   type: nested_list
@@ -118,6 +116,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: LLM.
+      items:
+        - RLHF.
+        - Multimodal LLM.
+        - Visual CoT.
+
     - title: Diffusion Models.
       items:
         - Video DM.
