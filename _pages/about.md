@@ -8,9 +8,7 @@ profile:
   align: right
   image: profile.png
   image_circular: false # crops the image to make it circular
-  address:
-    <p>Nankai University</p>
-    <p>Tianjin, China</p>
+
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -24,7 +22,7 @@ I'm a third year PhD student from [Nankai University](https://www.nankai.edu.cn/
 
 #### Research
 
-My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [Zhicheng Zhang's Curriculum Vitae](../assets/pdf/NKU_zzc_CV_nounderreview.pdf) and [Webpage](/cv/). For our works, we provide interesting [demos](/projects/) for fun. Some examples are listed and you can also upload yours. Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [CV](../assets/pdf/NKU_zzc_CV_nounderreview.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
 
 
 <p align=center>
