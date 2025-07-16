@@ -22,7 +22,7 @@ I'm a third year PhD student from [Nankai University](https://www.nankai.edu.cn/
 
 #### Research
 
-My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [CV](../assets/pdf/NKU_zzc_CV_nounderreview.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [CV](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
 
 
 <p align=center>
