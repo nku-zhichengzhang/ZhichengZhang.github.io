@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 #### Bio
-I'm a third year PhD student from [Nankai University](https://www.nankai.edu.cn/), advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab. Before that, I received my bachelor’s degree from [Xidian University](https://www.xidian.edu.cn/) in 2021.
+I'm a fourth-year PhD student from [Nankai University](https://www.nankai.edu.cn/), advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab. Before that, I received my bachelor’s degree from [Xidian University](https://www.xidian.edu.cn/) in 2021.
 
 #### Research
 My research interests include computer vision and deep learning, particularly focusing on **multimodal generation** and **multimodal llm**. You can find my CV here: [CV](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:

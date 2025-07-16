@@ -16,12 +16,84 @@ layout: default
 
 
 <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+<div class="post">
+  <header class="post-header">
+    <h3 class="post-title">
+      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+    </h3>
+    <div>
+      <span id="date" style="color: rgb(53, 52, 52); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"></span>.
+    </div>
+
+    <script>
+      const dateElement = document.getElementById('date');
+      const today = new Date();
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      dateElement.textContent = today.toLocaleDateString('en-US', options);
+    </script>
+    
+    <div>
+      <span style="color: rgb(57, 56, 56); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">  </span>
+      <span id="weather-text" style="color: rgb(65, 64, 64); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"></span>
+      <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Beijing Weather Icon</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+      <style>
+        #weather-icon i {
+          color: grey;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="weather-icon"></div>
+        
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            const apiKey = '916a98b48a576641bb870cfd458d045f';
+            const city = 'Beijing';
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+            fetch(url)
+              .then((response) => response.json())
+              .then((data) => {
+                const weatherCode = data.weather[0].id;
+                const iconClass = `wi wi-owm-${weatherCode}`;
+                $('#weather-icon').addClass(iconClass);
+              })
+              .catch((error) => console.error('Error fetching weather data:', error));
+          });
+        </script>
+
+        
+        <script>
+          const textElement = document.getElementById('weather-text');
+          const apiKey = '916a98b48a576641bb870cfd458d045f';
+          const city = 'Beijing';
+          const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+          fetch(url)
+            .then(response => response.json())
+            .then(data => {
+              const temperature = (data.main.temp).toFixed(1);
+              const fahrenheit = ((temperature * 9/5) + 32).toFixed(1);
+              const description = data.weather[0].description;
+              textElement.textContent = `@${city} ${temperature}°C / ${fahrenheit}°F, ${description}.`;
+            })
+            .catch(error => {
+              console.error('Error fetching weather data:', error);
+              textElement.textContent = 'Unable to fetch weather data.';
+            });
+        </script>
+
+
+
         </header>
 
         <article>
