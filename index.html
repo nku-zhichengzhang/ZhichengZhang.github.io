@@ -123,12 +123,84 @@
 
 
 <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           <span class="font-weight-bold">Zhicheng</span>  Zhang(张知诚)
-          </h1>
-          <p class="desc"></p>
+<div class="post">
+  <header class="post-header">
+    <h3 class="post-title">
+      <span class="font-weight-bold">Zhicheng</span>  Zhang(张知诚)
+    </h3>
+    <div>
+      <span id="date" style="color: rgb(53, 52, 52); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"></span>.
+    </div>
+
+    <script>
+      const dateElement = document.getElementById('date');
+      const today = new Date();
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      dateElement.textContent = today.toLocaleDateString('en-US', options);
+    </script>
+    
+    <div>
+      <span style="color: rgb(57, 56, 56); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">  </span>
+      <span id="weather-text" style="color: rgb(65, 64, 64); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"></span>
+      
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Beijing Weather Icon</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+      <style>
+        #weather-icon i {
+          color: grey;
+        }
+      </style>
+    
+    
+      <div id="weather-icon"></div>
+        
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            const apiKey = '916a98b48a576641bb870cfd458d045f';
+            const city = 'Beijing';
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+            fetch(url)
+              .then((response) => response.json())
+              .then((data) => {
+                const weatherCode = data.weather[0].id;
+                const iconClass = `wi wi-owm-${weatherCode}`;
+                $('#weather-icon').addClass(iconClass);
+              })
+              .catch((error) => console.error('Error fetching weather data:', error));
+          });
+        </script>
+
+        
+        <script>
+          const textElement = document.getElementById('weather-text');
+          const apiKey = '916a98b48a576641bb870cfd458d045f';
+          const city = 'Beijing';
+          const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+          fetch(url)
+            .then(response => response.json())
+            .then(data => {
+              const temperature = (data.main.temp).toFixed(1);
+              const fahrenheit = ((temperature * 9/5) + 32).toFixed(1);
+              const description = data.weather[0].description;
+              textElement.textContent = `@${city} ${temperature}°C / ${fahrenheit}°F, ${description}.`;
+            })
+            .catch(error => {
+              console.error('Error fetching weather data:', error);
+              textElement.textContent = 'Unable to fetch weather data.';
+            });
+        </script>
+
+
+
         </header>
 
         <article>
@@ -154,7 +226,7 @@
 
           <div class="clearfix">
             <h4 id="bio">Bio</h4>
-<p>I’m a third year PhD student from <a href="https://www.nankai.edu.cn/" rel="external nofollow noopener" target="_blank">Nankai University</a>, advised by <a href="https://cv.nankai.edu.cn/" rel="external nofollow noopener" target="_blank">Prof. Jufeng Yang</a> of Computer Vision Lab. Before that, I received my bachelor’s degree from <a href="https://www.xidian.edu.cn/" rel="external nofollow noopener" target="_blank">Xidian University</a> in 2021.</p>
+<p>I’m a fourth-year PhD student from <a href="https://www.nankai.edu.cn/" rel="external nofollow noopener" target="_blank">Nankai University</a>, advised by <a href="https://cv.nankai.edu.cn/" rel="external nofollow noopener" target="_blank">Prof. Jufeng Yang</a> of Computer Vision Lab. Before that, I received my bachelor’s degree from <a href="https://www.xidian.edu.cn/" rel="external nofollow noopener" target="_blank">Xidian University</a> in 2021.</p>
 
 <h4 id="research">Research</h4>
 <p>My research interests include computer vision and deep learning, particularly focusing on <strong>multimodal generation</strong> and <strong>multimodal llm</strong>. You can find my CV here: <a href="../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf">CV</a> and <a href="/cv/">Webpage</a>. Moreover, please feel free to make any suggestions. You can contact with me in following ways:</p>
@@ -627,5 +699,7 @@
     
     
 
-  </body>
+  
+
+</body>
 </html>
