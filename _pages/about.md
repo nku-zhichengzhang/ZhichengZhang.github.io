@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. student.  <a href='https://cv.nankai.edu.cn/'>CV Lab</a>.   <a href='https://cc.nankai.edu.cn/'>Nankai University</a>.   gloryzzc6@sina.com.
 
 profile:
   align: right
@@ -17,12 +16,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 #### Bio
-
 I'm a third year PhD student from [Nankai University](https://www.nankai.edu.cn/), advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab. Before that, I received my bachelor’s degree from [Xidian University](https://www.xidian.edu.cn/) in 2021.
 
 #### Research
-
-My research interests include computer vision and deep learning, particularly focusing on **video understanding** and **video-language multimodal learning**. The main objective of my research is to enable machines to understand high-level instances as humans, including cognitive emotion and geometric primitive. You can find my CV here: [CV](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+My research interests include computer vision and deep learning, particularly focusing on **multimodal generation** and **multimodal llm**. You can find my CV here: [CV](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
 
 
 <p align=center>
