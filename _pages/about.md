@@ -8,6 +8,7 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
 
+
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -19,6 +20,7 @@ I'm a fourth-year PhD student from [Nankai University](https://www.nankai.edu.cn
 
 #### Research
 My research interests include computer vision and deep learning, particularly focusing on **Video Generation** and **Multimodal LLM**. You can find my CV here: [CV](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+
 
 <p align=center>
   <a href="mailto:gloryzzc6@sina.com"><b>Email</b></a> | 
