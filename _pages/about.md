@@ -28,7 +28,7 @@ My research interests include computer vision and deep learning, particularly fo
 
 <p align=center>
   <a href="mailto:gloryzzc6@sina.com"><b>Email</b></a> | 
-  <a href="../assets/pdf/NKU_zzc_CV_nounderreview.pdf"><b>CV</b></a> | 
+  <a href="../assets/pdf/Nankai_PhD_Zhicheng_Zhang_2026_Fall_cn_en.pdf"><b>CV</b></a> | 
   <a href="https://github.com/nku-zhichengzhang"><b>GitHub</b></a> | 
   <a href="https://scholar.google.com/citations?user=NcTLUzIAAAAJ"><b>Google Scholar</b></a> | 
   <a href="../assets/img/Wechat.png"><b>Wechat</b></a>
