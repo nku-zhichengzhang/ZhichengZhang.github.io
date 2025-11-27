@@ -16,10 +16,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 #### Bio
-I'm a fourth-year PhD student from [Nankai University](https://www.nankai.edu.cn/), advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab. Before that, I received my bachelor’s degree from [Xidian University](https://www.xidian.edu.cn/) in 2021.
+I'm a final-year PhD student from [Nankai University](https://www.nankai.edu.cn/), advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab. Before that, I received my bachelor’s degree from [Xidian University](https://www.xidian.edu.cn/) in 2021.
 
 #### Research
-My research interests include computer vision and deep learning, particularly focusing on **Video Generation** and **Multimodal LLM**. You can find my CV here: [CV](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) and [Webpage](/cv/). Moreover, please feel free to make any suggestions. You can contact with me in following ways:
+My research interests include computer vision and deep learning, particularly focusing on **Video Generation** and **Multimodal LLM**. Please feel free to make any suggestions. You can contact with me in following ways:
 
 
 <p align=center>
@@ -30,4 +30,7 @@ My research interests include computer vision and deep learning, particularly fo
   <a href="../assets/img/Wechat.png"><b>Wechat</b></a>
 </p>
 
+#### Job Seeking
+
+I am actively seeking exciting opportunities starting in Fall 2027. Please feel free to explore my [[CV]](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) for more information about my background and qualifications.. If you’re interested, feel free to drop me an email, and I’ll get back to you promptly.
 
