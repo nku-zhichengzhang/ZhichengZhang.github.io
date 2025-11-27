@@ -32,5 +32,5 @@ My research interests include computer vision and deep learning, particularly fo
 
 #### Job Seeking
 
-I am actively seeking exciting opportunities starting in Fall 2026. Please feel free to explore my [[CV]](../assets/pdf/CV_Nankai_University_PhD_2026_ZhichengZhang_cn_en.pdf) for more information about my background and qualifications.. If you’re interested, feel free to drop me an email, and I’ll get back to you promptly.
+I am actively seeking exciting opportunities starting in Fall 2026. Please feel free to explore my [[CV]](../assets/pdf/Nankai_PhD_Zhicheng_Zhang_2026_Fall_cn_en.pdf) for more information about my background and qualifications.. If you’re interested, feel free to drop me an email, and I’ll get back to you promptly.
 
