@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### Job Seeking
 
-I am actively seeking exciting opportunities starting in Fall 2026. Please feel free to explore my [[CV]](../assets/pdf/Nankai_PhD_Zhicheng_Zhang_2026_Fall_cn_en.pdf) for more information about my background and qualifications. If you’re interested, feel free to drop me an email, and I’ll get back to you promptly.
+I am actively seeking exciting opportunities starting in Fall 2026. Please feel free to explore my [[CV]](../assets/pdf/Nankai_PhD_Zhicheng_Zhang_2026_Fall_cn_en.pdf) for more information about my background and qualifications. If you’re interested, feel free to drop me an [[Email]](mailto:gloryzzc6@sina.com), and I’ll get back to you promptly.
 
 #### Bio
 I'm a final-year PhD student from [Nankai University](https://www.nankai.edu.cn/), advised by [Prof. Jufeng Yang](https://cv.nankai.edu.cn/) of Computer Vision Lab. Before that, I received my bachelor’s degree from [Xidian University](https://www.xidian.edu.cn/) in 2021.
