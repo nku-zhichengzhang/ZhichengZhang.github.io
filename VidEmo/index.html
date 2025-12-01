@@ -185,7 +185,7 @@
 
               <!-- Github link -->
               <span class="link-block">
-                <a href="https://github.com/KwaiVGI/VidEmo" target="_blank"
+                <a href="https://github.com/KlingTeam/VidEmo" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fab fa-github"></i>
@@ -195,17 +195,27 @@
               </span>
 
               <span class="link-block">
-                <a href="https://huggingface.co/KwaiVGI/VidEmo" target="_blank"
+                <a href="https://huggingface.co/KlingTeam/VidEmo-3B" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <img src="/assets/icons/hf-logo.svg" alt="Hugging Face Icon" style="height: 24px; width: 24px;">
                   </span>
-                  <span>VidEmo Family</span>
+                  <span>Kling-VidEmo-3B</span>
                 </a>
               </span>
 
               <span class="link-block">
-                <a href="https://huggingface.co/KwaiVGI/VidEmo" target="_blank"
+                <a href="https://huggingface.co/KlingTeam/VidEmo-7B" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <img src="/assets/icons/hf-logo.svg" alt="Hugging Face Icon" style="height: 24px; width: 24px;">
+                  </span>
+                  <span>Kling-VidEmo-7B</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://huggingface.co/KlingTeam/Emo-CFG" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <img src="/assets/icons/hf-logo.svg" alt="Hugging Face Icon" style="height: 24px; width: 24px;">
@@ -262,6 +272,9 @@
             <b>TL;DR: We present an emotion-centric video foundation model trained with fine-grained captions and rationales via affective-tree reasoning guidance, achieving high-level emotional intelligence for video understanding.
             </b>
           </p>
+          <div class="content has-text-justified">
+            <image src="/assets/img/videmo/Teaser3.png" class="center-image">
+          </div>
           <p>
             Understanding and predicting emotions from videos has gathered significant attention in recent studies, driven by advancements in video large language models (VideoLLMs). While advanced methods have made progress in video emotion analysis, the intrinsic nature of emotions—characterized by their open-set, dynamic, and context-dependent properties—poses challenge in understanding complex and evolving emotional states with reasonable rationale. To tackle these challenges, we propose a novel affective cues-guided reasoning framework that unifies fundamental attribute perception, expression analysis, and high-level emotional understanding in a stage-wise manner. At the core of our approach is a family of video emotion foundation models (VidEmo), specifically designed for emotion reasoning and instruction-following. These models undergo a two-stage tuning process: first, curriculum emotion learning for injecting emotion knowledge, followed by affective-tree reinforcement learning for emotion reasoning. Moreover, we establish a foundational data infrastructure and introduce a emotion-centric fine-grained dataset (Emo-CFG) consisting of 2.1M diverse instruction-based samples. Emo-CFG includes explainable emotional question-answering, fine-grained captions, and associated rationales, providing essential resources for advancing emotion understanding tasks. Experimental results demonstrate that our approach achieves competitive performance, setting a new milestone across 15 face perception tasks.
           </p>
@@ -272,6 +285,130 @@
 </section>
 <!-- End paper abstract -->
 
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Methodology</h2>
+        <div class="content has-text-justified">
+          <image src="/assets/img/videmo/Pipeline.png" class="center-image">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            (a) Training: The model is trained using curriculum emotion learning, divided into three stages: attribute, expression, and emotion tuning. A reference model provides initial parameters, and a policy model is trained with reward feedback. (b) Reasoning: The policy model performs hierarchical reasoning by sampling from the best attributes, expressions, and emotions to generate the final emotional output.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Emo-CFG Dataset</h2>
+        <div class="content has-text-justified">
+          <image src="/assets/img/videmo/datastats.png" class="center-image">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b> Data Statistics of our Emo-CFG dataset. </b> (a) The data taxonomy from three types of face perception tasks. (b) The temporal and spatial distribution of video data. (c) The data label distribution and examples. (d) The comparison with other emotion and video datasets.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Data Curation</h2>
+        <div class="content has-text-justified">
+          <image src="/assets/img/videmo/DataCuration.png" class="center-image">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b> Data Curation Pipeline of the Emo-CFG dataset.</b> (a) The source of data from 17 datasets. (b) The illustration of data labeling steps. (c) The illustration of data verification loop.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Qualitative Results</h2>
+        <div class="content has-text-justified">
+          <image src="/assets/img/videmo/table1.png" class="center-image">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b>Comparison with 18 leading VideoLLMs on 14 face attribute perception tasks of Emo-CFG, including 6 closed-set attribute perception tasks and 12 open attribute perception tasks.</b> Cls: classification, Cap: caption, ID: identity verification, Pose: head pose estimation, AVG: average.
+          </p>
+        </div>
+        <div class="content has-text-justified">
+          <image src="/assets/img/videmo/table2.png" class="center-image">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b>Comparison with 18 leading VideoLLMs on 11 expression analysis tasks and 6 fine-grained emotion understanding tasks of Emo-CFG.</b> Sin: single-label classification, Mul: multi-label classification, Fine: fine-grained classification, Mic: micro-expression detection, AU: action unit detection, Cap: caption, Conv: conversation emotion analysis, VTR: video-text relevance, Flu: fluency, RA: response accuracy, IA: instruction adherence, Clu: clue overlap, Lab: label overlap, AVG: average.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container is-max-desktop">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3" style="font-family: 'MyFont';">Quantitative Results</h2>
+      <h3 class="title is-4" style="font-family: 'MyFont';">Video Caption</h2>
+      <div class="content has-text-justified">
+        <image src="/assets/img/videmo/videocaption.gif" class="center-image">
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          <b>VidEmo:</b> In a brightly lit fast-food restaurant, a young East Asian man wearing a light blue sweatshirt stands on the left side of the foreground, partially obscured. His head is consistently turned towards a middle-aged East Asian woman positioned in the center-right. She has short, neatly pulled-back black hair, almond-shaped eyes, and wears a mauve v-neck cardigan over a periwinkle top, maintaining a serious and concerned demeanor. Her eyebrows are subtly furrowed, and her mouth corners are slightly downturned. Engaging in conversation with the young man, she occasionally reveals her teeth while speaking, and her gaze remains fixed on him. The overall scene suggests a serious conversation with the woman appearing concerned, potentially delivering upsetting news or expressing worry, and the young man seemingly listening attentively with subtle facial cues reflecting his emotional state. In the background, another individual can be seen behind a counter, but their features and actions remain indistinct. The camera stays static, focusing on the interaction between the woman and the young man.
+        </p>
+      </div>
+      <div class="content has-text-justified">
+        <image src="/assets/img/videmo/videocaption1.gif" class="center-image">
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          <b>VidEmo:</b> In a dimly lit room, a young adult East Asian woman with long, straight black hair, almond-shaped double-lidded eyes, and a pointed chin is positioned closer to the camera. She wears a white jacket or blazer and red lipstick, suggesting makeup. Her head is turned slightly towards another person to whom her gaze is consistently directed. Initially wearing a neutral expression, she begins speaking, and a subtle smile gradually appears, upturning the corners of her mouth, indicating engagement and possibly amusement. Her facial actions primarily involve talking and smiling, both appearing genuine. There are no significant body movements, implying she is seated or standing relatively still. Another individual with short hair is partially obscured from view but faces the woman, indicating they are engaged in conversation. The limited visibility prevents any detailed description of their features or expressions. The soft, even dim lighting in the static scene contributes to the intimate feel of their interaction.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-family: 'MyFont';">Condition and Terms</h2>
+        <div class="content has-text-justified">
+          <p>
+            Following the best practice of advanced open-source works, <b>VidEmo is released under a EULA agreement that permits use solely for non-commercial research purposes</b>. Access will be granted only to verified academic principal investigators, who will act as the responsible party for all usage under their license. All downloads and usage will be logged to enable tracking and enforcement of the EULA. The EULA explicitly prohibits commercial or economic applications, including but not limited to emotion monitoring, privacy-invasive systems, and fully automated decision-making in high-stakes domains such as healthcare and law enforcement. VidEmo is not designed for, nor should it be used in, fully automated decision-making in high-stakes domains. All data used in our work are drawn from publicly available and open-source datasets. No private or sensitive information is involved and we ensure full compliance with the original dataset licenses. 
+            <b>The Emo-CFG dataset is available to download for research purposes. The copyright remains with the original owners of the video.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Youtube video -->
 <!-- <section class="hero is-small is-light">
